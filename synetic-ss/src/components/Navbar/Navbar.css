@@ -1,0 +1,127 @@
+
+.nav{
+    display:flex;
+justify-content: space-around;
+    background-color:#101010;
+    width: 100%;
+    color: var(--clr-light);
+    position:fixed;
+    margin-top:0;
+  z-index:50;
+ 
+  }
+  
+  .menu {
+    display:flex;
+    justify-content:end;
+    align-items:center;
+    
+  }
+
+  .nav li {
+  
+    font-size:0.5rem;
+    font-weight:bold;
+    letter-spacing: 2px;
+    margin:1em;
+    padding: 0.5em;
+    }
+  
+    .fab {
+       color: white;
+       font-size:1rem;
+    }
+
+    @media (min-width:800px){
+    .nav li {
+       color: var(--clr-accent);
+        font-size:1rem;
+        }
+    }
+  
+  .nav ul{
+    display:flex;
+    align-content:space-around;
+    justify-content: space-between;
+    list-style-type:none;
+    text-transform: uppercase;
+  }
+  
+  .nav li a{
+    display:flex;
+    text-decoration: none;
+    font-family: var(--ff-tertiary);
+    font-weight:bold;
+    letter-spacing: 2px;
+    padding:0.5rem;
+  }
+  
+a .social-list__link{
+      color: hotpink;
+      border: 5px solid pink;
+  }
+
+  .social-list__item{
+    border: 1px solid white;
+    border-radius: 20px;
+    /* width: 200px; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10rem;
+    color: white;
+    
+  }
+
+  .social-list__item:hover{
+    border: 1px solid white;
+    color: white;
+    font-weight: 900;
+    font-family: var(--ff-secondary);
+    background-color: var(--clr-accent_second);
+  }
+  
+
+  nav ul li a:hover{
+      /* border-bottom: 1px solid var(--clr-accent); */
+      color:var(--clr-accent_second);
+      text-shadow: 5px 10px 30px var(--clr-accent);
+      transition: all ease 0.2s;
+      cursor:pointer;
+  }
+  
+  
+  nav .logo{
+    font-family: var(--ff-primary);
+    text-decoration: none;
+    color: var(--clr-light);
+    font-size: 1.35rem;
+    padding:0.2em;
+    margin-left: 0.5em;
+   align-self:center;
+  }
+  
+  .nav-logo{
+    margin: 1rem;
+  }
+  
+  @media (min-width:800px){
+    nav .logo{
+      font-size: 2.2rem;
+      padding:1em;
+    }
+  
+    .nav li a{
+    font-size: 1rem;
+    font-weight:bold;
+    letter-spacing: 2px;
+    margin:1px;
+    padding: 0.5em;
+    
+    }
+  
+    .nav ul{
+      display:flex;
+      align-content:flex-end;
+    }
+  }
