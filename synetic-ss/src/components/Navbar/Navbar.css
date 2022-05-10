@@ -96,8 +96,6 @@ a .social-list__link{
     color: var(--clr-light);
     font-size: 1.35rem;
     padding:0.2em;
-    margin-left: 0.5em;
-   align-self:center;
   }
   
   .nav-logo{
