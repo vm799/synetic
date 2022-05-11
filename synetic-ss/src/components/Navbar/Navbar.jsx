@@ -21,7 +21,7 @@ const closeMenu = () => {
 
     return (
         <nav className= "nav">
-            <NavLink to={link.path}
+            <NavLink to="/"
 activeClassName="active-link"
 onClick= { () => closeMenu() }
 exact
