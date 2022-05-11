@@ -33,10 +33,7 @@ setNavbarOpen(prev => !prev)
 <li className="page-links">  <a href="" alt="">Roadmap</a></li>
 
 <div className="showNav_social-icons">
-                    <li class="social-list__item">
-                        <a class="social-list__link" href="https://twitter.com/_sinister_souls">
-                        <i class="fab fa-twitter"></i>
-                        </a></li>
+                    
 
                     <li class="social-list__item">
                         <a class="social-list__link" href="https://twitter.com/_sinister_souls">
@@ -46,6 +43,11 @@ setNavbarOpen(prev => !prev)
                     <li class="social-list__item">
                         <a class="social-list__link" href="https://twitter.com/_sinister_souls">
                         <i class="fab fa-medium"></i>
+                        </a></li>
+
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://twitter.com/_sinister_souls">
+                        <i class="fab fa-twitter"></i>
                         </a></li>
                         </div>
 </ul>
