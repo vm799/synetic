@@ -1,25 +1,22 @@
-import React from "react";
-// import {Link} from 'react-scroll'
+import React, { useState } from "react";
+
 import "../Navbar/Navbar.css"
 
 export default function Navbar(){
 
-//     const [nav, setNav] = useState(false)
-//    function changeBackground(){
-//        if(window.scrollY >= 50){
-//            setNav(true);
-//        } else {
-//            setNav(false)
-//        }
-//    }
+const [navbarOpen, setNavbarOpen] = useState(false)
 
-//    window.addEventListener("scroll", changeBackground)
+const handleToggle = ()=> {
+setNavbarOpen(prev => !prev)
+}
 
     return (
         <nav className= "nav">
 <a href="#" className= "logo" >
     SYNETIC
 </a>
+
+<button onClick={ handleToggle }> {navbarOpen? "Close" : "Open"}</button>
 <div className="page-links">
     {/* <p>About</p> */}
     <p>About</p>
@@ -27,13 +24,8 @@ export default function Navbar(){
     <p>Staking</p>
     <p>Roadmap</p>
 </div>
-<ul className="menu">
 
-    {/* <Link to="main" smooth={true}
-duration={1000}>MINT</Link></li>
-{/* <li> */}
-    {/* <Link to="Features"smooth={true}
-duration={1000}>SYNEVERSE</Link></li> */} 
+<ul className={`menuNav ${navbarOpen? "showMenu" : ""}` }>
 
 <li class="social-list__item">
                         <a class="social-list__link" href="https://twitter.com/_sinister_souls">
