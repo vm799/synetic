@@ -46,6 +46,17 @@ body {
 }
   
 
+@keyframes wipe-enter {
+	0% {
+		transform: scale(0, .025);
+	}
+	100% {
+		transform: scale(1, 1);
+	}
+}
 
-
-
+@media (prefers-reduced-motion: no-preference) {
+  .div-animation {
+    animation: wipe-enter 5s 1;
+  }
+}
