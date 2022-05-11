@@ -160,11 +160,16 @@
     argin-top: 3rem;
     flex-direction: column;
     border: 5px solid tomato;
+    justify-content: space-between;
   }
     
   .about-text .about_body-text{
-    line-height: 5px;
-    border: 5px solid tomato;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+    border: 5px solid teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .about-btn{
