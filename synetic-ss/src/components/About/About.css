@@ -158,7 +158,11 @@
     flex-direction: column;
   }
     
- p{
-    font-size: 3rem;
-  }
+.about_body-text{
+    line-height: 5px;
+}
+
+.about-btn{
+    margin-top: 3rem;
+}
  } 
