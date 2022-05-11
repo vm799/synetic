@@ -120,6 +120,11 @@ margin-left: 1rem;
        font-size:1.25rem;
     }
 
+    .fa-solid{
+        color: white;
+        font-size:2.25rem;
+    }
+
     @media (min-width:800px){
     .nav li {
         font-size:1rem;
