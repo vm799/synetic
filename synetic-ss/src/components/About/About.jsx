@@ -18,6 +18,7 @@ export default function About(){
             <p>Live a second digital reality where nothing is off limits. </p>
             <p> Use your Sinister Soul NFTs as playable characters</p>
             <p>EXPLORE. BUILD. OWN. EVOLVE.</p>
+            <br />
             <p>Live a second digital reality where nothing is off limits. </p>
             <p> Use your Sinister Soul NFTs as playable characters</p>
             <p>EXPLORE. BUILD. OWN. EVOLVE.</p>
