@@ -138,8 +138,9 @@
     padding-top: 8rem;
   
   }
-  .text-highlight{
+  .about-text .text-highlight{
       padding-top:2rem;
+      border: 5px solid tomato;
   }
 
 
@@ -158,10 +159,12 @@
     display: flex;
     argin-top: 3rem;
     flex-direction: column;
+    border: 5px solid tomato;
   }
     
-.about_body-text{
+  .about-text .about_body-text{
     line-height: 5px;
+    border: 5px solid tomato;
 }
 
 .about-btn{
