@@ -53,19 +53,19 @@ exact
 <div className="showNav_social-icons">
                     
 
-                    <li class="social-list__item">
-                        <a class="social-list__link" href="https://twitter.com/_sinister_souls">
-                        <i class="fab fa-discord"></i>
+                    <li className="social-list__item">
+                        <a className="social-list__link" href="https://twitter.com/_sinister_souls">
+                        <i className="fab fa-discord"></i>
                         </a></li>
 
-                    <li class="social-list__item">
-                        <a class="social-list__link" href="https://twitter.com/_sinister_souls">
-                        <i class="fab fa-medium"></i>
+                    <li className="social-list__item">
+                        <a className="social-list__link" href="https://twitter.com/_sinister_souls">
+                        <i className="fab fa-medium"></i>
                         </a></li>
 
-                    <li class="social-list__item">
-                        <a class="social-list__link" href="https://twitter.com/_sinister_souls">
-                        <i class="fab fa-twitter"></i>
+                    <li className="social-list__item">
+                        <a className="social-list__link" href="https://twitter.com/_sinister_souls">
+                        <i className="fab fa-twitter"></i>
                         </a></li>
                         </div>
 </ul>
