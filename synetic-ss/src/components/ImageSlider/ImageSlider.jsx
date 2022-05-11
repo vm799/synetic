@@ -5,9 +5,9 @@ import NFTimage from "../../images/10.png"
 
 export default function ImageSlider(){
     return(
-<div class="image-slider">
-    <div class="marquee_image">
-  <div class="marquee_image-content">
+<div className="image-slider">
+    <div className="marquee_image">
+  <div className="marquee_image-content">
   <img src= { NFTimage } alt="new-synetic_souls nft"></img>
   <img src= { NFTimage } alt="new-synetic_souls nft"></img>
   <img src= { NFTimage } alt="new-synetic_souls nft"></img>
