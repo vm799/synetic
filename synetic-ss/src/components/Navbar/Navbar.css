@@ -84,8 +84,9 @@ justify-content: space-evenly;
        height:4rem;
   }
 
-.menuNav .menuNav.showMenu .fab{
+.showMenu .fab{
     color: var(--clr-accent);
+    border: var(--clr-accent);
 }
 .page-links{
 font-size: 1rem;
