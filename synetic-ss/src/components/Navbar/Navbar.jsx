@@ -22,6 +22,7 @@ export default function Navbar(){
 </a>
 <div className="page-links">
     {/* <p>About</p> */}
+    <p>About</p>
     <p>Mint</p>
     <p>Staking</p>
     <p>Roadmap</p>
