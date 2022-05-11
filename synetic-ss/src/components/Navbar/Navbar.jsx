@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../Navbar/Navbar.css"
-import { Link } from 'react-router-dom'
 let FontAwesome = require('react-fontawesome')
 
 export default function Navbar(){
@@ -20,19 +19,12 @@ const closeMenu = () => {
 
     return (
         <nav className= "nav">
-            <Link to="/"
-activeClassName="active-link"
-onClick= { () => closeMenu() }
-exact
->
-    Home
-</Link>
 
-<a href="#" className= "logo" >
+<a href="/" className= "logo" >
     SYNETIC
 </a>
 
-<button onClick={ handleToggle }> {navbarOpen ? "Close" : "Open"}
+<button onClick={ handleToggle }> {navbarOpen ? <i class="fa-solid fa-bars"></i> : <i class="fa-solid fa-swords"></i>}
 </button>
 
 {/* <div className="page-links">
