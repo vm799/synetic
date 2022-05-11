@@ -30,7 +30,10 @@ duration={1000}>MINT</Link></li>
 duration={1000}>SYNEVERSE</Link></li> */} 
 
 <li class="social-list__item">
-  
+<i class="fa-brands fa-twitter-square"></i>
+<i class="fa-brands fa-discord"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-discord"></i>
                         <a class="social-list__link" href="https://twitter.com/_sinister_souls">
                         <i class="fa-brands fa-twitter"></i>
                         </a></li>
