@@ -13,9 +13,10 @@ export default function About(){
         <div className="about-text">
             
             <p className="highlight-text"> A new open world multi-planetary system created with endless possibilities for escape, on the blockchain. </p>
+            
+            <div className="about_body-text">
             <p>Live a second digital reality where nothing is off limits. </p>
-
-            <p className="about_body-text"> Use your Sinister Soul NFTs as playable characters</p>
+            <p> Use your Sinister Soul NFTs as playable characters</p>
             <p>EXPLORE. BUILD. OWN. EVOLVE.</p>
             <p>Live a second digital reality where nothing is off limits. </p>
             <p> Use your Sinister Soul NFTs as playable characters</p>
@@ -23,6 +24,7 @@ export default function About(){
             
        
         <button className="about-btn">CONNECT WALLET</button>
+        </div>
         </div>
 
         
