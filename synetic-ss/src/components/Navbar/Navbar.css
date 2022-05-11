@@ -60,19 +60,19 @@ justify-content: space-evenly;
     font-family: var(--ff-secondary);
   }
 
-  .menuNav li .page-links{
-      border: 5px solid green;
+  .menuNav .page-links a{
       font-size: 2rem;
+      font-family: var(--ff-secondary);
   }
 
-  .menuNav li .page-links:first-child {
+  .menuNav .page-links:first-child {
     margin-top: 7rem;
   }
 
   .showNav_social-icons {
       display: flex;
       flex-direction: row;
-      
+     
       justify-items: center;
       align-items: flex-start;
   }
@@ -82,8 +82,11 @@ justify-content: space-evenly;
       font-size: 1rem;
        width: 4rem;
        height:4rem;
-    
   }
+
+.menuNav .menuNav.showMenu .fab{
+    color: var(--clr-accent);
+}
 .page-links{
 font-size: 1rem;
 font-weight: bolder;
