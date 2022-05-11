@@ -20,7 +20,12 @@ export default function Navbar(){
 <a href="#" className= "logo" >
     SYNETIC
 </a>
-
+<div className="page-links">
+    {/* <p>About</p> */}
+    <p>Mint</p>
+    <p>Staking</p>
+    <p>Roadmap</p>
+</div>
 <ul className="menu">
 
     {/* <Link to="main" smooth={true}
@@ -30,9 +35,6 @@ duration={1000}>MINT</Link></li>
 duration={1000}>SYNEVERSE</Link></li> */} 
 
 <li class="social-list__item">
-
-
-
                         <a class="social-list__link" href="https://twitter.com/_sinister_souls">
                         <i class="fab fa-twitter"></i>
                         </a></li>
