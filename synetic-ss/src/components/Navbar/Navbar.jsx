@@ -20,23 +20,20 @@ const closeMenu = () => {
 
     return (
         <nav className= "nav">
-            <Link to="/"
+            {/* <Link to="/"
 activeClassName="active-link"
 onClick= { () => closeMenu() }
 exact
 >
     Home
-</Link>
+</Link> */}
 
 <a href="#" className= "logo" >
     SYNETIC
 </a>
 
-<button onClick={ handleToggle }> {navbarOpen? 
-(<FontAwesome icon="fa-solid fa-bars" style={{ color: "#fff", width: "40px", height: "40px" }} />
-  ) : (
-    <FontAwesome icon="fa-solid fa-swords"  style={{ color: "#7b7b7b", width: "40px", height: "40px" }} />
-  )}</button>
+<button onClick={ handleToggle }> {navbarOpen ? "Close" : "Open"}
+</button>
 
 {/* <div className="page-links">
     {/* <p>About</p> */}
