@@ -113,6 +113,7 @@
     font-family: var(--ff-primary);
     margin: 1rem;
     margin-bottom: 6rem;
+    width: 50%;
  }
  
  .about-btn:hover{
@@ -133,10 +134,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 8rem;
+  
   }
  
+
+
   .text-highlight:before{
    content: "";
    display: block;
@@ -150,21 +154,11 @@
  
   .about-text{
     display: flex;
-    /* width: 60%; */
-    height: 100%;
+
     flex-direction: column;
-   margin-top: 9rem;
-   justify-content: flex-end;
- 
   }
     
- 
- 
- 
  p{
     font-size: 3rem;
-  
   }
-  
- 
  } 
