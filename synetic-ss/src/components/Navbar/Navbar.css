@@ -8,7 +8,7 @@ justify-content: space-between;
     position:fixed;
     margin-top:0;
   z-index:50;
-  position: relative;
+  /* position: relative; */
   }
   
 .nav button{
@@ -25,14 +25,19 @@ justify-content: space-between;
     list-style: none;
     position: fixed;
     top: 0;
-    background: darkcyan;
+    background: radial-gradient(circle, rgba(233,0,179,1) 
+    0%, #101010 80%);
     left: 0;
     bottom: 0;
-    height: 100vh;
+    /* height: 100vh; */
     width: 0;
     overflow: hidden;
     max-width: 290px;
     z-index: 9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .menuNav.showMenu {
@@ -41,17 +46,23 @@ justify-content: space-between;
 
   a {
     display: block;
-    padding: 10px 40px;
+    padding: 10px 20px;
     text-decoration: none;
-    color: #070707;
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 1.25rem;
+    font-family: var(--ff-secondary);
   }
   
   .menuNav li:first-child {
     margin-top: 7rem;
   }
 
+  .menuNav  .social-list__item {
+      display: flex;
+      flex-direction: row;
+  }
 
 .page-links{
 font-size: 1rem;
@@ -151,7 +162,7 @@ margin-left: 1rem;
     text-decoration: none;
     color: var(--clr-light);
     font-size: 1.75rem;
-    padding:0.2em;
+    padding:0.6em;
     align-self:center;
   }
   
