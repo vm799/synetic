@@ -59,11 +59,18 @@ justify-content: space-between;
     margin-top: 7rem;
   }
 
-  .menuNav  .social-list__item {
+  .showNav_social-icons {
       display: flex;
       flex-direction: row;
+      border: 5px solid tomato;
   }
 
+  .showNav_social-icons .social-list__item{
+      border: 50%;
+      font-size: 1rem;
+ 
+      border: 5px solid teal;
+  }
 .page-links{
 font-size: 1rem;
 font-weight: bolder;
