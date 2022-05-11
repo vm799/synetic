@@ -3,9 +3,9 @@ import "../TextSlider/TextSlider.css";
 
 export default function TextSlider(){
     return(
-<div class="text-slider">
-    <div class="marquee">
-  <ul class="marquee-content">
+<div className="text-slider">
+    <div className="marquee">
+  <ul className="marquee-content">
    <li>SYNETIC   </li>
    <li> <span>SINISTER</span>  SOULS</li>
    <li>SYNETIC   </li>
