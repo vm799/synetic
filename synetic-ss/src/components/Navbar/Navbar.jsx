@@ -20,13 +20,13 @@ const closeMenu = () => {
 
     return (
         <nav className= "nav">
-            {/* <Link to="/"
+            <Link to="/"
 activeClassName="active-link"
 onClick= { () => closeMenu() }
 exact
 >
     Home
-</Link> */}
+</Link>
 
 <a href="#" className= "logo" >
     SYNETIC
@@ -43,12 +43,12 @@ exact
     <p>Roadmap</p>
 </div> */} 
 
-<ul className={`menuNav ${navbarOpen? "showMenu" : "menu"}` }>
+<ul className={`menuNav ${navbarOpen? "showMenu" : ""}` }>
 
-<li className="page-links">  <a href="" alt="">About</a></li>
-<li className="page-links">   <a href="" alt="">Mint</a></li>
-<li className="page-links">   <a href="" alt="">Staking</a></li>
-<li className="page-links">  <a href="" alt="">Roadmap</a></li>
+<li className="page-links">  <a href="/" alt="">About</a></li>
+<li className="page-links">   <a href="/" alt="">Mint</a></li>
+<li className="page-links">   <a href="/" alt="">Staking</a></li>
+<li className="page-links">  <a href="/" alt="">Roadmap</a></li>
 
 <div className="showNav_social-icons">
                     

@@ -41,12 +41,11 @@ justify-content: space-evenly;
     justify-content: flex-start;
 }
 
-.menuNav.showMenu {
+.menuNav .showMenu {
     width: 100%;
   }
 
-  .menuNav.showMenu ul{
-  
+  .menuNav .showMenu ul{
         justify-content: space-evenly;
   }
   
