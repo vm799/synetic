@@ -1,7 +1,7 @@
 
 .nav{
     display:flex;
-justify-content: space-around;
+justify-content: space-between;
     background-color:#101010;
     width: 100%;
     color: var(--clr-light);
@@ -12,10 +12,17 @@ justify-content: space-around;
   }
   
 .page-links{
-border: 5px solid hotpink;
 font-size: 1rem;
 font-weight: bolder;
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-left: 1rem;
   }
+.page-links p{
+    margin-left: 0.5rem;
+}
 
   .menu {
     display:flex;
@@ -41,6 +48,11 @@ font-weight: bolder;
     @media (min-width:800px){
     .nav li {
         font-size:1rem;
+        }
+    
+        .page-links p{
+        font-size: 2rem;
+      
         }
     }
   
@@ -96,7 +108,7 @@ font-weight: bolder;
     font-family: var(--ff-primary);
     text-decoration: none;
     color: var(--clr-light);
-    font-size: 1.35rem;
+    font-size: 1.75rem;
     padding:0.2em;
     align-self:center;
   }
