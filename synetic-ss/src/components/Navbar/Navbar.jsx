@@ -44,6 +44,11 @@ duration={1000}>SYNEVERSE</Link></li> */}
                         <a class="social-list__link" href="https://twitter.com/_sinister_souls">
                         <i class="fab fa-discord"></i>
                         </a></li>
+
+                        <li class="social-list__item">
+                        <a class="social-list__link" href="https://twitter.com/_sinister_souls">
+                        <i class="fab fa-medium"></i>
+                        </a></li>
 </ul>
 
  {/* <a href="https://twitter.com/_sinister_souls" className= "nav-logo"> <img height="20px" with="20px" src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt = "twitter"> </img></a>
