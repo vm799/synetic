@@ -14,7 +14,8 @@ export default function About(){
             
             <p className="highlight-text"> A new open world multi-planetary system created with endless possibilities for escape, on the blockchain. </p>
             <p>Live a second digital reality where nothing is off limits. </p>
-            <p> Use your Sinister Soul NFTs as playable characters</p>
+
+            <p className="about_body-text"> Use your Sinister Soul NFTs as playable characters</p>
             <p>EXPLORE. BUILD. OWN. EVOLVE.</p>
             <p>Live a second digital reality where nothing is off limits. </p>
             <p> Use your Sinister Soul NFTs as playable characters</p>
