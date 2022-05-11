@@ -8,7 +8,7 @@ justify-content: space-evenly;
     position:fixed;
     margin-top:0;
   z-index:50;
-  /* position: relative; */
+  position: relative;
   }
   
 .nav button{
@@ -17,7 +17,8 @@ justify-content: space-evenly;
   top: 40px;
   z-index: 10;
   cursor: pointer;
-
+  background: transparent;;
+  border: none;
 }
 
 .menuNav {
@@ -82,12 +83,10 @@ justify-content: space-evenly;
       font-size: 1rem;
        width: 4rem;
        height:4rem;
+       border: 2px solid var(--clr-accent);
   }
 
-.showMenu .fab{
-    color: var(--clr-accent);
-    border: var(--clr-accent);
-}
+
 .page-links{
 font-size: 1rem;
 font-weight: bolder;
