@@ -6,7 +6,7 @@
     align-items: center;
     /* margin-top: 4rem; */
  margin-bottom:4rem;
- padding:0;
+
 }
 
 .marquee_image2{
@@ -14,13 +14,13 @@
     /* height:50vh; */
     overflow:hidden;
     position:relative;
-   
+    padding:1rem;
 }
 
 .marquee_image2:before, .marquee_image2:after{
 position:absolute;
 top:0;
-width:20rem;
+width:5rem;
 height:100%;
 content:"";
 z-index:1;
@@ -28,12 +28,14 @@ z-index:1;
 
 .marquee_image2:before{
 left:0;
-background: linear-gradient(to right, var(--clr-dark) 0%, transparent 100%);
+background: linear-gradient(to right, rgba(0, 179, 255, 0.289) 0%, 
+transparent 100%);
 } 
 
 .marquee_image2:after{
 right:0;
-background: linear-gradient(to left, var(--clr-dark)  0%, transparent 100%);    
+background: linear-gradient(to left, rgba(228, 14, 192, 0.218)  0%, 
+transparent 100%);    
 }
 
 .marquee_image2-content{
@@ -43,6 +45,12 @@ background: linear-gradient(to left, var(--clr-dark)  0%, transparent 100%);
     animation: scrolling2 5s linear infinite;
     font-family: var(--ff-primary);
     color:white;
+}
+
+@media (min-width:800px){
+    .marquee_image2-content{
+        animation: scrolling2 15s linear infinite;
+    }
 }
 
 @keyframes scrolling2 {
