@@ -11,6 +11,12 @@ justify-content: space-around;
  
   }
   
+.page-links{
+border: 5px solid hotpink;
+font-size: 1rem;
+font-weight: bolder;
+  }
+
   .menu {
     display:flex;
     justify-content:end;
@@ -27,9 +33,9 @@ justify-content: space-around;
     padding: 0.5em;
     }
   
-    .fa-brands {
+    .fab {
        color: white;
-       font-size:1rem;
+       font-size:1.25rem;
     }
 
     @media (min-width:800px){
@@ -55,14 +61,11 @@ justify-content: space-around;
     padding:0.5rem;
   }
   
-a .social-list__link{
-      color: hotpink;
-      border: 5px solid pink;
-  }
+
 
   .social-list__item{
     border: 1px solid white;
-    border-radius: 20px;
+    border-radius:50%;
     /* width: 200px; */
     display:flex;
     align-items: center;
@@ -77,7 +80,6 @@ a .social-list__link{
     color: white;
     font-weight: 900;
     font-family: var(--ff-secondary);
-    background-color: var(--clr-accent_second);
   }
   
 
