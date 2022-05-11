@@ -157,22 +157,22 @@
  
   .about-text{
     display: flex;
-    argin-top: 3rem;
+    margin-top: 3rem;
     flex-direction: column;
     border: 5px solid tomato;
-    justify-content: space-between;
+    justify-self: flex-start;
   }
     
   .about-text .about_body-text{
-    line-height: 1.5rem;
-    letter-spacing: 0.1rem;
+    line-height: 0.75rem;
+    letter-spacing: 0.0.5rem;
     border: 5px solid teal;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
 }
 
 .about-btn{
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
  } 
