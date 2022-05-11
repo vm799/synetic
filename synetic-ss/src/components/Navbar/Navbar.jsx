@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "../Navbar/Navbar.css"
-import { MdClose } from "react-icons/md"
-import { FiMenu } from "react-icons/fi"
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+let FontAwesome = require('react-fontawesome')
 
 export default function Navbar(){
 
@@ -21,21 +20,22 @@ const closeMenu = () => {
 
     return (
         <nav className= "nav">
-            <NavLink to="/"
+            <Link to="/"
 activeClassName="active-link"
 onClick= { () => closeMenu() }
 exact
 >
-</NavLink>
+    Home
+</Link>
 
 <a href="#" className= "logo" >
     SYNETIC
 </a>
 
 <button onClick={ handleToggle }> {navbarOpen? 
-(<MdClose style={{ color: "#fff", width: "40px", height: "40px" }} />
+(<FontAwesome icon="fa-solid fa-bars" style={{ color: "#fff", width: "40px", height: "40px" }} />
   ) : (
-    <FiMenu style={{ color: "#7b7b7b", width: "40px", height: "40px" }} />
+    <FontAwesome icon="fa-solid fa-swords"  style={{ color: "#7b7b7b", width: "40px", height: "40px" }} />
   )}</button>
 
 {/* <div className="page-links">
