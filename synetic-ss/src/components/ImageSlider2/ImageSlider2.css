@@ -14,7 +14,7 @@
     /* height:50vh; */
     overflow:hidden;
     position:relative;
-    padding:1rem;
+   
 }
 
 .marquee_image2:before, .marquee_image2:after{
@@ -82,5 +82,5 @@ transparent 100%);
     height: 60%;
     width: 25rem;
     object-fit:cover;
- 
+    padding:1rem;
 }
