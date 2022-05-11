@@ -17,34 +17,37 @@ setNavbarOpen(prev => !prev)
 </a>
 
 <button onClick={ handleToggle }> {navbarOpen? "Close" : "Open"}</button>
-<div className="page-links">
+{/* <div className="page-links">
     {/* <p>About</p> */}
-    <p>About</p>
+    {/* <p>About</p>
     <p>Mint</p>
     <p>Staking</p>
     <p>Roadmap</p>
-</div>
+</div> */} 
 
 <ul className={`menuNav ${navbarOpen? "showMenu" : ""}` }>
 
-<li class="social-list__item">
+<li className="page-links">  <a href="" alt="">About</a></li>
+<li className="page-links">   <a href="" alt="">Mint</a></li>
+<li className="page-links">   <a href="" alt="">Staking</a></li>
+<li className="page-links">  <a href="" alt="">Roadmap</a></li>
+
+
+                    <li class="social-list__item">
                         <a class="social-list__link" href="https://twitter.com/_sinister_souls">
                         <i class="fab fa-twitter"></i>
                         </a></li>
 
-                        <li class="social-list__item">
+                    <li class="social-list__item">
                         <a class="social-list__link" href="https://twitter.com/_sinister_souls">
                         <i class="fab fa-discord"></i>
                         </a></li>
 
-                        <li class="social-list__item">
+                    <li class="social-list__item">
                         <a class="social-list__link" href="https://twitter.com/_sinister_souls">
                         <i class="fab fa-medium"></i>
                         </a></li>
 </ul>
-
- {/* <a href="https://twitter.com/_sinister_souls" className= "nav-logo"> <img height="20px" with="20px" src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt = "twitter"> </img></a>
- <a href="https://twitter.com/_sinister_souls" className= "nav-logo"> <img height="20px" with="20px" src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt = "twitter"></img></a> */}
- </nav>
+</nav>
     )
 }
