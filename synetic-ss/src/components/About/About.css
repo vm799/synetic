@@ -79,6 +79,7 @@
  @media(min-width:800px){
     .about-image h1 {
        font-size: 4em;
+
     }
  }
  
@@ -136,8 +137,11 @@
     align-items: center;
     justify-content: center;
     padding-top: 8rem;
-  
+    padding-left: 1.5rem;
+    padding-right: 1rem;
   }
+
+  
   .about-text .text-highlight{
       padding-top:2rem;
       border: 5px solid tomato;
@@ -157,19 +161,19 @@
  
   .about-text{
     display: flex;
-    margin-top: 3rem;
+    margin-top: 3.5rem;
     flex-direction: column;
-    border: 5px solid tomato;
+ 
     justify-self: flex-start;
   }
     
   .about-text .about_body-text{
     line-height: 0.75rem;
-    letter-spacing: 0.0.5rem;
-    border: 5px solid teal;
+    letter-spacing: 0.05rem;
+
     display: flex;
     flex-direction: column;
-
+ padding-top: 1.5rem;
 }
 
 .about-btn{
