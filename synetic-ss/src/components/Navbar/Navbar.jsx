@@ -24,7 +24,7 @@ const closeMenu = () => {
     SYNETIC
 </a>
 
-<button onClick={ handleToggle }> {navbarOpen ? <i class="fa-solid fa-bars"></i> : <i class="fa-solid fa-swords"></i>}
+<button onClick={ handleToggle }> {navbarOpen ? <i className=" fab fa-solid fa-bars"></i> : <i className="fab fa-solid fa-swords"></i>}
 </button>
 
 {/* <div className="page-links">
