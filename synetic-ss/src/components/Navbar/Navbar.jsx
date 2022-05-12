@@ -22,11 +22,10 @@ const closeMenu = () => {
 
 <a href="/" className= "logo" >
     SYNETIC
-    <i class="fa-solid fa-skull-crossbones" ></i>
-    <i class="fa-solid fa-bars" ></i>
+    <FontAwesomeIcon icon="fa-solid fa-compact-disc" flip />
 </a>
 
-<button onClick={ handleToggle }> {navbarOpen ? <i class="fal fa-bars"></i> : <i class="fal fa-skull-crossbones"></i>}
+<button onClick={ handleToggle }> {navbarOpen ? <i className="fal fa-bars"></i> : <i className="fal fa-skull-crossbones"></i>}
 </button>
 
 {/* <div className="page-links">
