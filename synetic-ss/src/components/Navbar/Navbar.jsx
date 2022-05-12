@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../Navbar/Navbar.css"
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 export default function Navbar(){
 
@@ -23,6 +24,9 @@ const closeMenu = () => {
 <a href="/" className= "logo" >
     SYNETIC
     <FontAwesomeIcon icon="fa-solid fa-compact-disc" flip />
+    <FontAwesomeIcon icon={solid('user-secret')} />
+<FontAwesomeIcon icon={regular('coffee')} />
+<FontAwesomeIcon icon={brands('twitter')} />
 </a>
 
 <button onClick={ handleToggle }> {navbarOpen ? <i className="fal fa-bars"></i> : <i className="fal fa-skull-crossbones"></i>}
