@@ -121,10 +121,10 @@ margin-left: 1rem;
       
     }
 
-    .fab .fa-solid{
-        color: red;
+nav .fa-solid{
+        color:blueviolet;
         font-size:2.25rem;
-        border: 5px solid pink;
+       
     }
 
     @media (min-width:800px){
