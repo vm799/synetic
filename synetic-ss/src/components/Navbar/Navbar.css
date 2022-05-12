@@ -115,13 +115,13 @@ margin-left: 1rem;
     padding: 0.5em;
     }
   
-    .fab {
+    .fab, .fal {
       
        font-size:1.25rem;
       
     }
 
-nav .fa-solid{
+.fal{
         color:blueviolet;
         font-size:2.25rem;
        
