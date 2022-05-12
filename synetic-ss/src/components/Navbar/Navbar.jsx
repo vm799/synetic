@@ -22,8 +22,8 @@ const closeMenu = () => {
 
 <a href="/" className= "logo" >
     SYNETIC
-    <i className="fa-solid fa-skull-crossbones"></i>
-    <i className="fa-solid fa-bars"></i>
+    <i class="fa-solid fa-skull-crossbones"></i>
+    <i class="fa-solid fa-bars"></i>
 </a>
 
 <button onClick={ handleToggle }> {navbarOpen ? <i class="fal fa-bars"></i> : <i class="fal fa-skull-crossbones"></i>}
