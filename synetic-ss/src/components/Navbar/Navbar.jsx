@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../Navbar/Navbar.css"
-let FontAwesome = require('react-fontawesome')
+
 
 export default function Navbar(){
 
@@ -22,9 +22,11 @@ const closeMenu = () => {
 
 <a href="/" className= "logo" >
     SYNETIC
+    <i class="fa-solid fa-skull-crossbones"></i>
+    <i class="fa-solid fa-bars"></i>
 </a>
 
-<button onClick={ handleToggle }> {navbarOpen ? <i className="fab fa-solid fa-bars"></i> : <i className="fab fa-solid fa-swords"></i>}
+<button onClick={ handleToggle }> {navbarOpen ? <i class="fa-solid fa-bars"></i>: <i class="fa-solid fa-skull-crossbones"></i>}
 </button>
 
 {/* <div className="page-links">
