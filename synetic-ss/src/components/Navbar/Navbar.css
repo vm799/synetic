@@ -11,7 +11,7 @@ justify-content: space-evenly;
   position: relative;
   }
   
-/* .nav button{
+.nav button{
   position: fixed;
   left: 40px;
   top: 40px;
@@ -20,7 +20,7 @@ justify-content: space-evenly;
   background: transparent;
   border: none;
   color: white;
-} */
+}
 
 .nav-toggle {
     padding: .5rem;
