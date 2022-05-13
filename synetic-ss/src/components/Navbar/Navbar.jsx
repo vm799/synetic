@@ -10,61 +10,70 @@ const handleToggle = ()=> {
 setNavbarOpen(prev => !prev)
 }
 
-
-
 const closeMenu = () => {
     setNavbarOpen(false)
 }
 
 
     return (
-        <nav className= "nav">
+        <div className="navBar">
+        <header>
+            <div className="logo">
+            <a href="/" className= "logo" >
+                    SYNETIC 
+            </a>
+            </div>
+            <button className="nav-toggle" aria-label="toggle navigation">
+                <span className="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li className="nav__item"><a href="#About" className="nav__link">About</a></li>
+                    <li className="nav__item"><a href="#Mint" className="nav__link">Mint</a></li>
+                    <li className="nav__item"><a href="#Staking" className="nav__link">Staking</a></li>
+                    <li className="nav__item"><a href="#Roadmap" classNames="nav__link">Roadmap</a></li>
 
-<a href="/" className= "logo" >
-    SYNETIC
-    <img src="https://cdn-icons-png.flaticon.com/512/2948/2948037.png"></img>
- 
-</a>
-
-<button onClick={ handleToggle }> {navbarOpen ? 
-<img src="https://cdn-icons-png.flaticon.com/512/2948/2948037.png" alt="burger menu icon"></img> : 
-<img src="https://cdn-icons.flaticon.com/png/512/5910/premium/5910314.png?token=exp=1652415956~hmac=de9b1afac2a2c5cb69c522fbc665cbd9" alt="close icon"></img>}
-</button>
-
-{/* <div className="page-links">
-    {/* <p>About</p> */}
-    {/* <p>About</p>
-    <p>Mint</p>
-    <p>Staking</p>
-    <p>Roadmap</p>
-</div> */} 
-
-<ul className={`menuNav ${navbarOpen? "showMenu" : ""}` }>
-
-<li className="page-links">  <a href="/" alt="">About</a></li>
-<li className="page-links">   <a href="/" alt="">Mint</a></li>
-<li className="page-links">   <a href="/" alt="">Staking</a></li>
-<li className="page-links">  <a href="/" alt="">Roadmap</a></li>
-
-<div className="showNav_social-icons">
-                    
-
+                    <div className="showNav_social-icons">
                     <li className="social-list__item">
                         <a className="social-list__link" href="https://twitter.com/_sinister_souls">
-                        <i className="fab fa-discord"></i>
-                        </a></li>
+                         <i className="fab fa-discord"></i>
+                         </a></li>
 
-                    <li className="social-list__item">
-                        <a className="social-list__link" href="https://twitter.com/_sinister_souls">
-                        <i className="fab fa-medium"></i>
+                     <li className="social-list__item">
+                         <a className="social-list__link" href="https://twitter.com/_sinister_souls">
+                         <i className="fab fa-medium"></i>
                         </a></li>
+                    <li className="social-list__item">
+                         <a className="social-list__link" href="https://twitter.com/_sinister_souls">
+                         <i className="fab fa-twitter"></i>
+                        </a></li>
+                        </div> 
+                </ul>
+            </nav>
+        </header>
+    
+        </div>
+    )}
 
-                    <li className="social-list__item">
-                        <a className="social-list__link" href="https://twitter.com/_sinister_souls">
-                        <i className="fab fa-twitter"></i>
-                        </a></li>
-                        </div>
-</ul>
-</nav>
-    )
-}
+
+
+//                   <div className="showNav_social-icons">
+//                     <li className="social-list__item">
+//                         <a className="social-list__link" href="https://twitter.com/_sinister_souls">
+//                         <i className="fab fa-discord"></i>
+//                         </a></li>
+
+//                     <li className="social-list__item">
+//                         <a className="social-list__link" href="https://twitter.com/_sinister_souls">
+//                         <i className="fab fa-medium"></i>
+//                         </a></li>
+
+//                     <li className="social-list__item">
+//                         <a className="social-list__link" href="https://twitter.com/_sinister_souls">
+//                         <i className="fab fa-twitter"></i>
+//                         </a></li>
+//                         </div>
+// </ul>
+// </nav>
+//     
+//

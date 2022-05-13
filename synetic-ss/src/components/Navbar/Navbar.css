@@ -115,11 +115,15 @@ margin-left: 1rem;
     margin:1em;
     padding: 0.5em;
     }
-  
+
+  .nav img{
+width: 2rem;
+height:2rem;
+border: 5px solid hotpink;
+
+  }
     .fab, .fal {
-      
        font-size:1.25rem;
-      
     }
 
 
