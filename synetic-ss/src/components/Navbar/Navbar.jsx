@@ -12,10 +12,10 @@ export default function Navbar(){
             </div>
            
             <ul className="nav__list">
-                    <li className="nav__item"><a href="#About" className="nav__link">About</a></li>
-                    <li className="nav__item"><a href="#Mint" className="nav__link">Mint</a></li>
-                    <li className="nav__item"><a href="#Staking" className="nav__link">Staking</a></li>
-                    <li className="nav__item"><a href="#Roadmap" classNames="nav__link">Roadmap</a></li>
+                    <li className="nav__item"><a href="#About" >About</a></li>
+                    <li className="nav__item"><a href="#Mint"  >Mint</a></li>
+                    <li className="nav__item"><a href="#Staking">Staking</a></li>
+                    <li className="nav__item"><a href="#Roadmap">Roadmap</a></li>
                     
                     <li className="social-list__item">
                         <a className="social-list__link" href="https://twitter.com/_sinister_souls">
