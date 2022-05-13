@@ -16,7 +16,7 @@ header {
 
 .nav{
   position: fixed;
-  background: rgba(0, 0, 0, 0.736);
+  background: rgba(0, 0, 0, 0.831);
   color: var(--clr-light);
   top: 0;
   left:0;
@@ -120,6 +120,7 @@ width:110%;
     height:3px;
     border-radius:1em ;
     transition: transform 350ms ease-in-out;
+ 
 }
 
 .hamburger::before,
@@ -128,6 +129,7 @@ width:110%;
     position: absolute;
     left:0;
     right:0;
+    z-index:100;
 }
 
 .hamburger::before { top: 6px;}
