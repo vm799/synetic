@@ -11,7 +11,7 @@ justify-content: space-evenly;
   position: relative;
   }
   
-.nav button{
+/* .nav button{
   position: fixed;
   left: 40px;
   top: 40px;
@@ -20,7 +20,45 @@ justify-content: space-evenly;
   background: transparent;
   border: none;
   color: white;
+} */
+
+.nav-toggle {
+    padding: .5rem;
+    background: transparent;
+    border:0;
+    cursor:pointer;
+    position: absolute;
+    right:1em;
+top: 1em;
+z-index: 100;
 }
+
+.hamburger {
+    
+    display:block;
+    position:relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after{
+    background: var(--clr-accent);
+    width:3em;
+    height:3px;
+    border-radius:1em ;
+    transition: transform 250ms ease-in-out;
+}
+
+.hamburger::before,
+.hamburger::after{
+    content: "";
+    position: absolute;
+    left:0;
+    right:0;
+}
+
+.hamburger::before { top: 6px;}
+.hamburger::after { bottom: 6px;}
 
 .menuNav {
     overflow-y: scroll;

@@ -22,8 +22,9 @@ const closeMenu = () => {
             <a href="/" className= "logo" >
                     SYNETIC 
             </a>
-            </div>
-            <button className="nav-toggle" aria-label="toggle navigation">
+        </div>
+        {/* className="nav-toggle" aria-label="toggle navigation" */}
+            <button >
                 <span className="hamburger"></span>
             </button>
             <nav>
