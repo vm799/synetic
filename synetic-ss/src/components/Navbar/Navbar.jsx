@@ -21,6 +21,7 @@ const menuToggle = () =>{
     return (
        
         <header>
+            
             <div className="logo">
             <a href="/" > SYNETIC  </a>
             </div>
