@@ -16,7 +16,7 @@ const closeMenu = () => {
 
 
     return (
-        <div className="navBar">
+        <div>
         <header>
             <div className="logo">
             <a href="/" className= "logo" >
@@ -26,8 +26,8 @@ const closeMenu = () => {
             <button className="nav-toggle" aria-label="toggle navigation">
                 <span className="hamburger"></span>
             </button>
-            <nav class="nav">
-                <ul class="nav__list">
+            <nav>
+                <ul className="nav__list">
                     <li className="nav__item"><a href="#About" className="nav__link">About</a></li>
                     <li className="nav__item"><a href="#Mint" className="nav__link">Mint</a></li>
                     <li className="nav__item"><a href="#Staking" className="nav__link">Staking</a></li>
