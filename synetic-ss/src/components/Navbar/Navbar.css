@@ -15,7 +15,7 @@ header {
   }
 
 .nav{
-  background-color:#101010;
+  background-color:#10101042;
   position: fixed;
   background: var(--clr-dark);
   color: var(--clr-light);
@@ -57,12 +57,20 @@ header {
   
 }
 
-.fab{
+nav .social-list__link{
     color: white;
     font-size:1.5em;
     padding: 1em;
-    border: 5px solid tomato;
 }
+
+.social-list{
+display:flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+width:60%;
+}
+
 
 .nav a:hover {
     color: var(--clr-accent);
