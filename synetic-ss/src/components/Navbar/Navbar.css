@@ -29,7 +29,7 @@ header {
 
   }
 
-  .nav__list .nav__link{
+  .nav__link{
 
     list-style: none;
     display: flex;
@@ -57,10 +57,11 @@ header {
   
 }
 
-.nav .social-list__link{
-    background-color: rgba(0,153,202,1);
+.fab{
+    color: white;
     font-size:1.5em;
     padding: 1em;
+    border: 5px solid tomato;
 }
 
 .nav a:hover {
@@ -125,17 +126,18 @@ header {
 .hamburger::after { bottom: 6px;}
 
 
- .social-list .fab{
+ /* .social-list .social-list__link{
    
     width: 3rem; 
     height:3rem;
     display:flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
    font-size: 1rem;
   padding-top: 2rem;
  border: 5px solid tomato;
-  }
+  } */
 
 
 
