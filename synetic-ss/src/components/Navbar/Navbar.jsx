@@ -19,7 +19,7 @@ const closeMenu = () => {
         <div>
         <header>
             <div className="logo">
-            <a href="/" className= "logo" >
+            <a href="/" >
                     SYNETIC 
             </a>
         </div>
