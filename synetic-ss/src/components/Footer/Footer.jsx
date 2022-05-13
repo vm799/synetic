@@ -76,6 +76,8 @@ export default function Footer(){
    
     <div className="footer__copyright">
         &copy; Sinister Souls. All Rights Reserved.
+        <a href="https://www.flaticon.com/free-icons/open-menu" 
+        title="open-menu icons">Open-menu icons created by bqlqn - Flaticon</a>
       </div>
     <div className="attribution">
       <a href="#">Coded by PinkPistachioButterfly</a>.
