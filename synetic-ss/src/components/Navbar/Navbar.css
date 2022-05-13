@@ -2,6 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1em;
+    align-items: centre;
 }
 
 
@@ -71,18 +72,28 @@ width:110%;
 }
 
 .nav__list-closed{
+    width:100%;
+    border:5px solid tomato;
+   justify-content: flex-start;
+}
+
+.nav__list-closed ul{
+    color:white;
+    border:5px solid lime;
     display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border:5px solid tomato;
-    width: 100%;
 }
 
-.nav__list-closed li{
+.nav__list-closed a{
     color:white;
+    border:5px solid teal;
+    padding: 1rem;
+    font-weight: var(--fw-bold);
+    font-size: 1rem;
+    text-decoration: none;
 }
-
 
 .nav-toggle {
     padding: .5rem;
