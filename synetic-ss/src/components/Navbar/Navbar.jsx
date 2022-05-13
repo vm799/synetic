@@ -29,13 +29,17 @@ const menuToggle = () =>{
             </button>
 
         <nav class="nav">
+        
             <ul className="nav__list">
+        
+        <div className="nav-list">
                     <li className="nav__link"><a href="#About" >About</a></li>
                     <li className="nav__link"><a href="#Mint"  >Mint</a></li>
                     <li className="nav__link"><a href="#Staking">Staking</a></li>
                     <li className="nav__link"><a href="#Roadmap">Roadmap</a></li>
-                   
-            <div className="social-list">
+        </div>
+        
+        <div className="social-list">
                     <li className="social-list__item">
                         <a className="social-list__link" href="https://twitter.com/_sinister_souls">
                          <i className="fab fa-discord"></i>
@@ -50,7 +54,8 @@ const menuToggle = () =>{
                          <a className="social-list__link" href="https://twitter.com/_sinister_souls">
                          <i className="fab fa-twitter"></i>
                         </a></li>
-            </div>
+        </div>
+        
        </ul>
             
             </nav>
