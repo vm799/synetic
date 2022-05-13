@@ -24,14 +24,14 @@ const menuToggle = () =>{
             <div className="logo">
             <a href="/" > SYNETIC  </a>
             </div>
-
-            <ul className="nav__list-closed">
+            <div className="nav__list-closed">
+            <ul>
                     <li className="nav__link"><a href="#About" >About</a></li>
                     <li className="nav__link"><a href="#Mint"  >Mint</a></li>
                     <li className="nav__link"><a href="#Staking">Staking</a></li>
                     <li className="nav__link"><a href="#Roadmap">Roadmap</a></li>
             </ul>
-
+            </div>
             <button onClick={menuToggle} class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
             </button>
