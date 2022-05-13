@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../Navbar/Navbar.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
+
 
 export default function Navbar(){
 
@@ -23,13 +22,13 @@ const closeMenu = () => {
 
 <a href="/" className= "logo" >
     SYNETIC
-    <FontAwesomeIcon icon="fa-solid fa-compact-disc" flip />
-    <FontAwesomeIcon icon={solid('user-secret')} />
-<FontAwesomeIcon icon={regular('coffee')} />
-<FontAwesomeIcon icon={brands('twitter')} />
+    <img src="https://cdn-icons-png.flaticon.com/512/2948/2948037.png"></img>
+ 
 </a>
 
-<button onClick={ handleToggle }> {navbarOpen ? <i className="fal fa-bars"></i> : <i className="fal fa-skull-crossbones"></i>}
+<button onClick={ handleToggle }> {navbarOpen ? 
+<img src="https://cdn-icons-png.flaticon.com/512/2948/2948037.png" alt="burger menu icon"></img> : 
+<img src="https://cdn-icons.flaticon.com/png/512/5910/premium/5910314.png?token=exp=1652415956~hmac=de9b1afac2a2c5cb69c522fbc665cbd9" alt="close icon"></img>}
 </button>
 
 {/* <div className="page-links">
