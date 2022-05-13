@@ -5,6 +5,26 @@ header {
     align-items: centre;
 }
 
+.custom-cur {
+    cursor: url('/images/droplet.svg');
+  }
+  
+  /* With a .cur fallback */
+  .custom-cur {
+    cursor: url('/images/droplet.svg'),
+    url('/images/droplet.cur');
+  }
+  
+  /* With a custom hotspot */
+  .custom-cur {
+    cursor: url('/images/droplet.svg') 10 12;
+  }
+  
+  /* With a non-custom fallback: */
+  .custom-cur {
+    cursor: url('/images/droplet.svg'),
+    move;
+  }
 
 .logo a{
     font-family: var(--ff-primary);
@@ -74,7 +94,7 @@ width:110%;
 .nav__list-closed{
     width:100%;
     border:5px solid tomato;
-   justify-content: flex-start;
+   align-items: flex-start;
 }
 
 .nav__list-closed ul{
