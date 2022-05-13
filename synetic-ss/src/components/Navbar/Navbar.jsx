@@ -39,13 +39,14 @@ const menuToggle = () =>{
         <nav class="nav">
         
             <div className="nav__list">
-               <ul>     <li className="nav__link"><a href="#About" >About</a></li>
+               <ul> <li className="nav__link"><a href="#About" >About</a></li>
                     <li className="nav__link"><a href="#Mint"  >Mint</a></li>
                     <li className="nav__link"><a href="#Staking">Staking</a></li>
                     <li className="nav__link"><a href="#Roadmap">Roadmap</a></li>
        
                </ul>
             </div>
+
         <div className="social-list">
                
                         <a className="social-list__link" href="https://twitter.com/_sinister_souls">
