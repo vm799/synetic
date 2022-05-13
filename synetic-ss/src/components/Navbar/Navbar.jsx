@@ -31,13 +31,10 @@ const menuToggle = () =>{
         <nav class="nav">
         
             <ul className="nav__list">
-        
-      
                     <li className="nav__link"><a href="#About" >About</a></li>
                     <li className="nav__link"><a href="#Mint"  >Mint</a></li>
                     <li className="nav__link"><a href="#Staking">Staking</a></li>
                     <li className="nav__link"><a href="#Roadmap">Roadmap</a></li>
-        
         </ul>
 
         <div className="social-list">
