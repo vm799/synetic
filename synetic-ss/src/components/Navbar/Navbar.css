@@ -16,7 +16,7 @@ header {
 
 .nav{
   position: fixed;
-  background: rgba(0, 0, 0, 0.831);
+  background: linear-gradient(to right rgba(7, 7, 7, 0.075) 100%, rgb(0, 0, 0) 0% );
   color: var(--clr-light);
   top: 0;
   left:0;
@@ -50,7 +50,7 @@ header {
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
-
+    padding: 1rem;
     font-weight: var(--fw-bold);
     font-size: 2rem;
     text-decoration: none;
@@ -129,7 +129,7 @@ width:110%;
     position: absolute;
     left:0;
     right:0;
-    z-index:100;
+   
 }
 
 .hamburger::before { top: 6px;}
