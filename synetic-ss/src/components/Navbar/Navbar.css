@@ -56,6 +56,14 @@ header {
 
   }
 
+  li .navlink{
+border: 5px solid hotpink;
+  }
+
+  .navlink li{
+    border: 5px solid tomato;
+  }
+
   .nav__link{
 
     list-style: none;
