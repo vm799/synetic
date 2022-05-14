@@ -25,11 +25,11 @@ jobs and corporations can flourish organically from the foundation of our game.<
 
 <img src="https://images.unsplash.com/photo-1577936220068-923b4be596cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZnV0dXJpc3RpYyUyMGNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60" alt="Jane leaning against a bus" class="about-me__img" />
 
-        <p>Spawn into the open world planet and have access to a multiverse of many different planets and worlds where you can 
+        <p className="highlight">Spawn into the open world planet and have access to a multiverse of many different planets and worlds where you can 
 fight other players for coins. </p>
-<p className="highlight">Join virtual metings with co-workers </p> 
-<p> Walk into a vegas style casino or even fly a fighter-jet. </p>
-<p> All from the comfort of your own home !</p>
+<p className="sub-text">Join virtual metings with co-workers </p> 
+<p className="sub-text"> Walk into a vegas style casino or even fly a fighter-jet. </p>
+<p className="sub-text"> All from the comfort of your own home !</p>
     </div>
     
     <img src="https://images.unsplash.com/photo-1484669646614-0c9cd3d4a453?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZ1dHVyaXN0aWMlMjBjaXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="sunset over dystopia" class="about-me__img" />
