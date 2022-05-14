@@ -77,7 +77,7 @@
         grid-area: title;
     }
     
-    .section__subtitle--about1
+    .section__subtitle--about
     {
         grid-area: subtitle1;
         grid-column: 1 / -1;
@@ -87,6 +87,7 @@
         width: calc(100% + 2em);
         padding-left: 1em;
         padding-right: calc(200px + 4em);
+        margin-bottom:1em;
     }
 
     .section__subtitle--about{
@@ -101,9 +102,9 @@
         padding-right: calc(200px + 4em);
     }
     
-    .about-oasis__img1 {
+    .about-oasis img {
         grid-area: img;
         position: relative;
-        z-index: 2;
+        z-index: 10;
     }
 }
