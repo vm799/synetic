@@ -38,10 +38,6 @@ header {
   }
 
 
-  .logo li{
-    font-family: var(--ff-secondary);
-    font-weight: lighter;
-  }
 .nav{
   position: fixed;
   background: linear-gradient( rgb(0, 0, 0), rgba(0, 0, 0, 0.001), rgb(0, 0, 0) );
@@ -56,12 +52,16 @@ header {
 
   }
 
-  li .navlink{
+ .navlink{
 border: 5px solid hotpink;
+font-family: var(--ff-secondary);
+    font-weight: lighter;
   }
 
-  .navlink li{
+  .logo .navlink {
     border: 5px solid tomato;
+    font-family: var(--ff-secondary);
+    font-weight: lighter;
   }
 
   .nav__link{
