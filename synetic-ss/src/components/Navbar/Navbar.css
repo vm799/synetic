@@ -51,15 +51,14 @@ header {
   transition: transform 400ms cubic-bezier(.5, 0, .5, 1);
 
   }
-
+/* 
  .navlink{
 border: 5px solid hotpink;
 font-family: var(--ff-secondary);
     font-weight: lighter;
-  }
+  } */
 
   .navlink a{
-    border: 5px solid tomato;
     font-family: var(--ff-secondary);
     font-weight: lighter;
   }
