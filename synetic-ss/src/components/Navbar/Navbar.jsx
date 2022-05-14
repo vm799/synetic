@@ -25,6 +25,7 @@ const menuToggle = () =>{
             <div className="logo">
             <a href="/" > SYNETIC  </a>
             </div>
+
             <div className="nav__list-closed">
             <ul>
                     <li className="nav__link"><a href="#About" >About</a></li>
@@ -33,17 +34,19 @@ const menuToggle = () =>{
                     <li className="nav__link"><a href="#Roadmap">Roadmap</a></li>
             </ul>
             </div>
+
+            <div className="btn">
             <button onClick={menuToggle} class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
             </button>
+            </div>
 
         <nav class="nav">
-        
             <div className="nav__list">
-               <ul> <li className="nav__link"><a href="#About" >About</a></li>
-                    <li className="nav__link"><a href="#Mint"  >Mint</a></li>
-                    <li className="nav__link"><a href="#Staking">Staking</a></li>
-                    <li className="nav__link"><a href="#Roadmap">Roadmap</a></li>
+               <ul> <li className="nav__list-link"><a href="#About" >About</a></li>
+                    <li className="nav__list-link"><a href="#Mint"  >Mint</a></li>
+                    <li className="nav__list-link"><a href="#Staking">Staking</a></li>
+                    <li className="nav__list-link"><a href="#Roadmap">Roadmap</a></li>
        
                </ul>
             </div>
