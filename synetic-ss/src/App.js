@@ -11,6 +11,7 @@ import Footer from "./components/Footer/Footer";
 import ImageSlider from "./components/ImageSlider/ImageSlider";
 import TextSlider from "./components/TextSlider/TextSlider";
 import ImageSlider2 from "./components/ImageSlider2/ImageSlider2";
+import Oasis from "./components/Oasis/Oasis";
 
 function App() {
   return(
@@ -20,6 +21,7 @@ function App() {
          <Hero />
          <ImageSlider />
          <ImageSlider2 />
+         <Oasis />
          <Team />
          <TextSlider />
          {/* <Syneverse /> */}
