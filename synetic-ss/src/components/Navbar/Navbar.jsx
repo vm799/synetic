@@ -24,29 +24,28 @@ const menuToggle = () =>{
             
             <div className="logo">
             <a href="/" > SYNETIC  </a>
-            </div>
-
-            <div className="nav__list-closed">
+            
             <ul>
-                    <li className="nav__link"><a href="#About" >About</a></li>
-                    <li className="nav__link"><a href="#Mint"  >Mint</a></li>
-                    <li className="nav__link"><a href="#Staking">Staking</a></li>
-                    <li className="nav__link"><a href="#Roadmap">Roadmap</a></li>
+            <li className="navlinks"><a href="#About" >About</a></li>
+                    <li className="navlink"><a href="#Mint"  >Mint</a></li>
+                    <li className="navlink"><a href="#Staking">Staking</a></li>
+                    <li className="navlink"><a href="#Roadmap">Roadmap</a></li>
+                    
             </ul>
             </div>
-
-            <div className="btn">
+           
+           
             <button onClick={menuToggle} class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
             </button>
-            </div>
+          
 
-        <nav class="nav">
+            <nav class="nav">
             <div className="nav__list">
-               <ul> <li className="nav__list-link"><a href="#About" >About</a></li>
-                    <li className="nav__list-link"><a href="#Mint"  >Mint</a></li>
-                    <li className="nav__list-link"><a href="#Staking">Staking</a></li>
-                    <li className="nav__list-link"><a href="#Roadmap">Roadmap</a></li>
+               <ul> <li className="nav__link"><a href="#About" >About</a></li>
+                    <li className="nav__link"><a href="#Mint"  >Mint</a></li>
+                    <li className="nav__link"><a href="#Staking">Staking</a></li>
+                    <li className="nav__link"><a href="#Roadmap">Roadmap</a></li>
        
                </ul>
             </div>
@@ -64,23 +63,6 @@ const menuToggle = () =>{
                          <a className="social-list__link" href="https://twitter.com/_sinister_souls">
                          <i className="fab fa-twitter"></i>
                         </a>
-
-
-        {/* <div className="social-list">
-                    <li className="social-list__item">
-                        <a className="social-list__link" href="https://twitter.com/_sinister_souls">
-                         <i className="fab fa-discord"></i>
-                         </a></li>
-
-                    <li className="social-list__item">
-                         <a className="social-list__link" href="https://twitter.com/_sinister_souls">
-                         <i className="fab fa-medium"></i>
-                        </a></li>
-
-                    <li className="social-list__item">
-                         <a className="social-list__link" href="https://twitter.com/_sinister_souls">
-                         <i className="fab fa-twitter"></i>
-                        </a></li> */}
         </div>
 
     
