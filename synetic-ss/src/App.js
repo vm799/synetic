@@ -12,11 +12,25 @@ import ImageSlider from "./components/ImageSlider/ImageSlider";
 import TextSlider from "./components/TextSlider/TextSlider";
 import ImageSlider2 from "./components/ImageSlider2/ImageSlider2";
 import Oasis from "./components/Oasis/Oasis";
+import DotRing from "./components/DotRing/DotRing";
+import "./App.css";
 
 function App() {
+  
   return(
     <div className="App">
-          
+      <DotRing />
+      <div className="container">
+        <div
+          onMouseEnter={() => cursorChangeHandler("hovered")}
+          onMouseLeave={() => cursorChangeHandler("")}
+        >
+          <h1>Hover over me</h1>
+        </div>
+      </div>
+      <div className="container" style={{ background: "peachpuff" }}></div>
+  
+
        <Navbar />
          <Hero />
          <ImageSlider />
