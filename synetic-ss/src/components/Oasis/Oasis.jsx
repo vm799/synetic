@@ -16,9 +16,10 @@ export default function Oasis(){
       Live an alternate life without the constraints of modern day reality. </p>
     
     <div class="about-oasis__body">
-        <p>Built with the blockchain. Build, own and monetise your experiences
+        <p className="highlight">Built on the blockchain. </p> 
+        <p className="highlight">Build, own and monetise your experiences
 through real-estate ownership.  </p>
-<p>Become an entrepreneur, join the corporate playing field.
+<p><st>Become an entrepreneur</st>, join the corporate playing field.
 Built on a capitalist model, new 
 jobs and corporations can flourish organically from the foundation of our game.</p>
 
@@ -26,8 +27,9 @@ jobs and corporations can flourish organically from the foundation of our game.<
 
         <p>Spawn into the open world planet and have access to a multiverse of many different planets and worlds where you can 
 fight other players for coins. </p>
-<p>Join virtual metings with co-workers, walk into a vegas style casino or even fly a fighter-jet.
-All from the comfort of your own home !</p>
+<p className="highlight">Join virtual metings with co-workers </p> 
+<p> Walk into a vegas style casino or even fly a fighter-jet. </p>
+<p> All from the comfort of your own home !</p>
     </div>
     
     <img src="https://images.unsplash.com/photo-1484669646614-0c9cd3d4a453?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZ1dHVyaXN0aWMlMjBjaXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="sunset over dystopia" class="about-me__img" />
