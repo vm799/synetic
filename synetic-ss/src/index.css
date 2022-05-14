@@ -61,10 +61,10 @@ img {
 
 strong { font-weight: var(--fw-bold) }
 
-:focus {
+/* :focus {
     outline: 3px solid var(--clr-accent);
     outline-offset: 3px;
-}
+} */
 
 body {
   margin: 0;
