@@ -21,13 +21,22 @@
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
     margin-top: 1em;
-    font-weight: bolder;
-    font-size: smaller;
+    font-weight: 900;
+    letter-spacing: 0.5px;
 }
-
+.section__subtitle--about1 {
+   
+    padding: .25em 1em;
+    font-family: var(--ff-tertiary);
+    margin-bottom: 1em;
+    margin-top: 2em;
+    color:var(--clr-accent);
+}
 .section__subtitle {
     margin: 0;
-    font-size: var(--fs-h3);
+    font-size: 1.25em;
+    font-weight: bolder;
+    font-size: smaller;
 }
 
 .about-oasis__body{

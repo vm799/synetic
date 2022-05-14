@@ -11,8 +11,8 @@ export default function Oasis(){
     <p class="section__subtitle section__subtitle--about">
        Photorealistic, 
         virtual  reality. </p>
-        <br />
-        <p class="section__subtitle section__subtitle--about">
+     
+        <p class="section__subtitle section__subtitle--about1">
       Live an alternate life without the constraints of modern day reality. </p>
     
     <div class="about-oasis__body">
