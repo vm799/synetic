@@ -51,6 +51,16 @@
     padding-top: 1em;
     letter-spacing: 0.5px;
 }
+.highlight{
+    color: var(--clr-accent);
+    font-family: var(--ff-secondary);
+}
+
+.sub-text{
+    border: 0.5px solid var(--clr-accent);
+    padding: .75em 1em;
+    letter-spacing: 0.5px;
+}
 
 @media (min-width: 600px) {
     .about-oasis {
