@@ -73,7 +73,7 @@
         grid-column-gap: 2em;
     }
     
-    .section__title--about {
+    .section__title {
         grid-area: title;
     }
     
@@ -101,7 +101,7 @@
         padding-right: calc(200px + 4em);
     }
     
-    .about-oasis__img {
+    .about-oasis__img1 {
         grid-area: img;
         position: relative;
         z-index: 2;
