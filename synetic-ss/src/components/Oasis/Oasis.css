@@ -1,0 +1,64 @@
+.about-oasis {
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+}
+
+.about-oasis__img {
+    box-shadow: var(--bs);
+}
+
+.section__title {
+    margin-bottom: .25em;
+    padding-top: 4rem;
+    font-family: var(--ff-primary);
+    font-size: 2rem;
+}
+
+.section__subtitle--about {
+    background: var(--clr-accent);
+    padding: .25em 1em;
+    font-family: var(--ff-secondary);
+    margin-bottom: 1em;
+}
+
+.section__subtitle {
+    margin: 0;
+    font-size: var(--fs-h3);
+}
+
+.about-oasis__body{
+    font-family: var(--ff-tertiary);
+}
+
+@media (min-width: 600px) {
+    .about-oasis {
+        display: grid;
+        grid-template-columns: 1fr 200px;
+        grid-template-areas: 
+            "title img"
+            "subtitle img"
+            "text img";
+        grid-column-gap: 2em;
+    }
+    
+    .section__title--about {
+        grid-area: title;
+    }
+    
+    .section__subtitle--about {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        position: relative;
+        left: -1em;
+        width: calc(100% + 2em);
+        padding-left: 1em;
+        padding-right: calc(200px + 4em);
+    }
+    
+    .about-oasis__img {
+        grid-area: img;
+        position: relative;
+        z-index: 2;
+    }
+}
