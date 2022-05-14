@@ -17,7 +17,7 @@
 
 .section__subtitle--about {
     background: var(--clr-accent);
-    padding: .75em 1em;
+    padding: 1.5em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
     margin-top: 1em;
@@ -31,8 +31,9 @@
     margin-bottom: 1em;
     margin-top: 1em;
     padding-top: 1em;
-    color:var(--clr-accent);
+    color:white;
     font-size: 2rem;
+    letter-spacing: 0.5px;
 }
 .section__subtitle {
     margin: 0;
@@ -43,11 +44,12 @@
 
 .about-oasis__body{
     font-family: var(--ff-tertiary);
+    letter-spacing: 0.5px;
 }
 
 .about-oasis__body p{
     padding-top: 1em;
- 
+    letter-spacing: 0.5px;
 }
 
 @media (min-width: 600px) {
