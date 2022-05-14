@@ -20,6 +20,9 @@
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
+    margin-top: 1em;
+    font-weight: bolder;
+    font-size: smaller;
 }
 
 .section__subtitle {
