@@ -68,7 +68,7 @@
         grid-template-columns: 1fr 200px;
         grid-template-areas: 
             "title img"
-            "subtitle img"
+            "subtitle1 img"
             "text img";
         grid-column-gap: 2em;
     }
@@ -77,7 +77,21 @@
         grid-area: title;
     }
     
-    .section__subtitle--about {
+    .section__subtitle--about1
+    {
+        grid-area: subtitle1;
+        grid-column: 1 / -1;
+        grid-row: 2;
+        position: relative;
+        left: -1em;
+        width: calc(100% + 2em);
+        padding-left: 1em;
+        padding-right: calc(200px + 4em);
+    }
+
+    .section__subtitle--about{
+
+        grid-area: subtitle2;
         grid-column: 1 / -1;
         grid-row: 2;
         position: relative;
