@@ -17,7 +17,7 @@
 
 .section__subtitle--about {
     background: var(--clr-accent);
-    padding: .25em 1em;
+    padding: .75em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
     margin-top: 1em;
@@ -25,12 +25,14 @@
     letter-spacing: 0.5px;
 }
 .section__subtitle--about1 {
-   
-    padding: .25em 1em;
+   border: 0.5px solid var(--clr-accent);
+    padding: .75em 1em;
     font-family: var(--ff-tertiary);
     margin-bottom: 1em;
-    margin-top: 2em;
+    margin-top: 1em;
+    padding-top: 1em;
     color:var(--clr-accent);
+    font-size: 2rem;
 }
 .section__subtitle {
     margin: 0;
@@ -41,6 +43,11 @@
 
 .about-oasis__body{
     font-family: var(--ff-tertiary);
+}
+
+.about-oasis__body p{
+    padding-top: 1em;
+ 
 }
 
 @media (min-width: 600px) {

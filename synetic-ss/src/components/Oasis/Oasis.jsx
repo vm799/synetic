@@ -17,14 +17,16 @@ export default function Oasis(){
     
     <div class="about-oasis__body">
         <p>Built with the blockchain. Build, own and monetise your experiences
-through real-estate ownership.  Become an entrepreneur, join the corporate playing field.
+through real-estate ownership.  </p>
+<p>Become an entrepreneur, join the corporate playing field.
 Built on a capitalist model, new 
 jobs and corporations can flourish organically from the foundation of our game.</p>
 
 <img src="https://images.unsplash.com/photo-1577936220068-923b4be596cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZnV0dXJpc3RpYyUyMGNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60" alt="Jane leaning against a bus" class="about-me__img" />
 
         <p>Spawn into the open world planet and have access to a multiverse of many different planets and worlds where you can 
-fight other players for coins, join virtual metings with co-workers, walk into a vegas style casino or even fly a fighter-jet.
+fight other players for coins. </p>
+<p>Join virtual metings with co-workers, walk into a vegas style casino or even fly a fighter-jet.
 All from the comfort of your own home !</p>
     </div>
     
