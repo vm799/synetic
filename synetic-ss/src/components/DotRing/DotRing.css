@@ -4,7 +4,7 @@
     left: 0;
     width: 32px;
     height: 32px;
-    border: 2px solid rgba(246, 239, 239, 0.808);
+    border: 2px solid rgba(253, 4, 224, 0.808);
     border-radius: 100%;
     transform: translate(-50%, -50%);
     -webkit-transition-duration: 100ms;
@@ -22,7 +22,7 @@
     left: 50%;
     width: 8px;
     height: 8px;
-    background-color: var(--clr-accent);
+    background-color: linear-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%);
     border-radius: 100%;
     transform: translate(-50%, -50%);
     z-index: 999;
