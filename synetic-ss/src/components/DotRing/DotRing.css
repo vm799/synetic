@@ -2,9 +2,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 22px;
-    height: 22px;
-    border: 2px solid rgba(31, 30, 30, 0.808);
+    width: 32px;
+    height: 32px;
+    border: 2px solid rgba(246, 239, 239, 0.808);
     border-radius: 100%;
     transform: translate(-50%, -50%);
     -webkit-transition-duration: 100ms;
@@ -22,7 +22,7 @@
     left: 50%;
     width: 8px;
     height: 8px;
-    background-color: black;
+    background-color: var(--clr-accent);
     border-radius: 100%;
     transform: translate(-50%, -50%);
     z-index: 999;
