@@ -25,8 +25,8 @@ const menuToggle = () =>{
             <div className="logo">
             <a href="/" > SYNETIC  </a>
             
-            <ul>
-            <li className="navlinks"><a href="#About" >About</a></li>
+            <ul className="navlinks">
+                    <li className="navlink"><a href="#About" >About</a></li>
                     <li className="navlink"><a href="#Mint"  >Mint</a></li>
                     <li className="navlink"><a href="#Staking">Staking</a></li>
                     <li className="navlink"><a href="#Roadmap">Roadmap</a></li>
