@@ -16,8 +16,8 @@ export default function Oasis(){
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
            </div>
            
-           <img src="https://images.unsplash.com/photo-1484669646614-0c9cd3d4a453?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZ1dHVyaXN0aWMlMjBjaXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" 
-            alt="Jane leaning against a bus" class="about-me__img" />
+           <img src="https://images.unsplash.com/photo-1520724807848-3ff34d6a3bba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZnV0dXJpc3RpYyUyMGNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
+            alt="architecture in the game" class="about-me__img" />
         </section>
 </>
 
@@ -42,7 +42,7 @@ export default function Oasis(){
 
 //         <p className="highlight">Spawn into the open world planet and have access to a multiverse of many different planets and worlds where you can 
 // fight other players for coins. </p>
-// <p className="sub-text">Join virtual metings with co-workers </p> 
+// <p className="sub-text">Join virtual metigs with co-workers </p> 
 // <p className="sub-text"> Walk into a vegas style casino or even fly a fighter-jet. </p>
 // <p className="sub-text"> All from the comfort of your own home !</p>
 //     </div>
