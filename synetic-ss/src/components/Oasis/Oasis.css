@@ -67,12 +67,15 @@ section {
     color:white;
 }
 
-.bullet {
-    height: 20px;
-    width:20px;
+#circle{
+    background: var(--clr-accent);
+    display:inline-block;
+    height: 10px;
+    width:10px;
     border-radius: 50%;
-    background-color: linear-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%);
-    background: linear-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%);
+    background:  linear-gradient(90deg, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%);
+   margin-right: 1rem;
+   border: 0.5 solid rgba(233,0,179,1);
 }
 
 img {
