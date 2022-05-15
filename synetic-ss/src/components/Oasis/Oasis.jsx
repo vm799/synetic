@@ -12,14 +12,14 @@ export default function Oasis(){
        Photorealistic, 
         virtual  reality. </p>
      <br />
-        <p class="section__subtitle section__subtitle--about">
+        <p class=" section__subtitle--about2">
       Live an alternate life without the constraints of modern day reality. </p>
     
     <div class="about-oasis__body">
         <p className="highlight">Built on the blockchain. </p> 
         <p className="highlight">Build, own and monetise your experiences
 through real-estate ownership.  </p>
-<p><st>Become an entrepreneur</st>, join the corporate playing field.
+<p>Become an entrepreneur, join the corporate playing field.
 Built on a capitalist model, new 
 jobs and corporations can flourish organically from the foundation of our game.</p>
 
