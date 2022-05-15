@@ -43,6 +43,7 @@ export default function Footer(){
         <a href="#">
            <i className="fab fa-brands fa-discord" 
            alt="discord">
+            
              </i>JOIN US
         </a>
         
@@ -54,7 +55,7 @@ export default function Footer(){
         </a>
         
       </div>
-
+    
       <div className="footer__links col1">
         <a href="#">About Us</a>
         <a href="#">Contact</a>
