@@ -14,9 +14,10 @@ export default function Oasis(){
            
         <div class="about-me__body">
             <p className="highlight"> 
-            <div className="circle-border">
-            <div id="circle" > </div>
-            </div>
+            {/* <div className="circle-border"> */}
+            {/* <div id="circle" > </div>
+            </div> */}
+             <div id="circle" ></div>
                 Built on the blockchain. </p> 
             
             <p className="highlight"> 
