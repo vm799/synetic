@@ -69,7 +69,7 @@ section {
 
 #circle{
     background: var(--clr-accent);
-    display:inline-block;
+ 
     height: 10px;
     width:10px;
     border-radius: 50%;
@@ -79,9 +79,17 @@ section {
 }
 
 .circle-border{
-    border: 5px solid rgba(233,0,179,1);
+    border: 1px solid rgba(233,0,179,1);
     border-collapse: separate;
     border-spacing: 15px;
+    padding: 0.25rem;
+    display:inline-block;
+    border-radius: 50%;
+    height: 10px;
+    width:10px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 img {
