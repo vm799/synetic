@@ -18,8 +18,10 @@ import { MouseContext } from "./context/mouse-context";
 
 function App() {
   const { cursorType, cursorChangeHandler } = useContext(MouseContext);
+  
   return(
     <div className="App">
+      
       <DotRing />
       <div className="container">
         <div
@@ -31,7 +33,7 @@ function App() {
       </div>
   
 
-       <Navbar />
+      <Navbar />
          <Hero />
          <ImageSlider />
          <ImageSlider2 />
