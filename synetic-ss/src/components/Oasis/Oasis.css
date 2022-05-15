@@ -136,7 +136,8 @@ h3 { font-size: var(--fs-h3) }
         box-shadow: var(--bs);
     }
     
-    @media (min-width: 600px) {
+
+
         .about-me {
             display: grid;
             grid-template-columns: 1fr 200px;
@@ -168,7 +169,8 @@ h3 { font-size: var(--fs-h3) }
             height: 300px;
         }
 
-        .about-me_body{
+        .about-me_body p{
             font-size: 1.5em;
+            border: 5px solid tomato;
         }
-    }}
+    }
