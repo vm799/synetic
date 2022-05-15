@@ -68,10 +68,11 @@
         grid-template-columns: 1fr 200px;
         grid-template-areas: 
             "title img"
-            "subtitle1 img"
+            "subtitle img"
             "text img";
         grid-column-gap: 2em;
     }
+
     
     .section__title {
         grid-area: title;
@@ -79,7 +80,7 @@
     
     .section__subtitle--about
     {
-        grid-area: subtitle1;
+        grid-area: subtitle;
         grid-column: 1 / -1;
         grid-row: 2;
         position: relative;
@@ -88,21 +89,13 @@
         padding-left: 1em;
         padding-right: calc(200px + 4em);
         margin-bottom:1em;
+        border: 5px solid salmon;
+        font-size: 1.5em;
+        text-transform:uppercase;
     }
 
-    .section__subtitle--about{
-
-        grid-area: subtitle2;
-        grid-column: 1 / -1;
-        grid-row: 2;
-        position: relative;
-        left: -1em;
-        width: calc(100% + 2em);
-        padding-left: 1em;
-        padding-right: calc(200px + 4em);
-    }
     
-    .about-oasis img {
+     img {
         grid-area: img;
         position: relative;
         z-index: 10;
