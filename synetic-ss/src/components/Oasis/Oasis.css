@@ -64,6 +64,7 @@
 
 section {
     padding: 5em 2em;
+    color:white;
 }
 
 img {
@@ -75,10 +76,8 @@ img {
     color: var(--clr-accent);
     font-family: var(--ff-secondary);
     font-size:larger;
-    
 }
 
-.strong { font-weight: var(--fw-bold) }
 
 
 .section__title {
@@ -119,9 +118,11 @@ img {
 
 .sub-text{
     border: 0.5px solid var(--clr-accent);
-    padding:  1em;
-    letter-spacing: 0.8px;
-
+    padding:1em;
+   
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-weight: bolder
 }
 
 
@@ -172,10 +173,9 @@ img {
         }
 
         .about-me__body p{
-            border: 5px solid tomato;
             letter-spacing: 0.5px;
             line-height: 20px;
         }
 
-       
+    
     }
