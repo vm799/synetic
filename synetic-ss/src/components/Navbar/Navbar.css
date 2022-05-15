@@ -1,8 +1,13 @@
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     padding: 1em;
-    align-items: centre;
+    align-items: center;
+   
+}
+
+.nav{
+  position: fixed;
 }
 
 .logo{
@@ -11,6 +16,7 @@ header {
     justify-content:space-between;
     align-items:center;
     width:80%;
+   
 }
 
 .logo a{
@@ -31,12 +37,12 @@ header {
     font-family: var(--ff-tertiary);
   }
 
-  @media (max-width:400px){
+  /* @media (max-width:400px){
    #navlist_links a{
       display: none;
       border: 5px solid hotpink;
     }
-  }
+  } */
 
 
 .nav{
