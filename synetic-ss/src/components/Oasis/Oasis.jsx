@@ -24,7 +24,7 @@ export default function Oasis(){
             <div id="circle"> 
                 </div>Build, own and monetise your experiences
             through real-estate ownership.  </p>
-            <p>Become an entrepreneur, join the corporate playing field.
+            <p className="highlight-body">Become an entrepreneur, join the corporate playing field.
             Built on a capitalist model, new 
             jobs and corporations can flourish organically from the foundation of our game.</p>
         </div>
