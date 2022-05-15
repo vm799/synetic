@@ -71,6 +71,11 @@ img {
     max-width: 100%;
 }
 
+.highlight{
+    color: var(--clr-accent);
+    font-family: var(--ff-secondary);
+}
+
 strong { font-weight: var(--fw-bold) }
 h1,
 h2,
@@ -86,6 +91,8 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title {
     margin-bottom: .25em;
+    font-family: var(--ff-primary);
+   
 }
 
 .section__title--intro {
@@ -103,7 +110,7 @@ h3 { font-size: var(--fs-h3) }
 
 .section__subtitle--intro,
 .section__subtitle--about {
-    background: var(--clr-accent);
+    background: var(--clr-accent_second);
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
@@ -158,5 +165,10 @@ h3 { font-size: var(--fs-h3) }
             grid-area: img;
             position: relative;
             z-index: 2;
+            height: 300px;
+        }
+
+        .about-me_body{
+            font-size: 1.5em;
         }
     }}
