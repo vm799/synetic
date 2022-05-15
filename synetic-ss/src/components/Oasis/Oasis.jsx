@@ -13,8 +13,15 @@ export default function Oasis(){
         virtual  reality. </p>
            
         <div class="about-me__body">
-            <p className="highlight"> <div id="circle" className="circle-border"></div>Built on the blockchain. </p> 
-            <p className="highlight"> <div id="circle"> </div>Build, own and monetise your experiences
+            <p className="highlight"> 
+            <div className="circle-border">
+            <div id="circle" > </div>
+            </div>
+                Built on the blockchain. </p> 
+            
+            <p className="highlight"> 
+            <div id="circle"> 
+                </div>Build, own and monetise your experiences
             through real-estate ownership.  </p>
             <p>Become an entrepreneur, join the corporate playing field.
             Built on a capitalist model, new 
