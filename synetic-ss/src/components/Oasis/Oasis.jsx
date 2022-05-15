@@ -21,7 +21,7 @@ export default function Oasis(){
             jobs and corporations can flourish organically from the foundation of our game.</p>
         </div>
            
-           <img src="https://images.unsplash.com/photo-1520724807848-3ff34d6a3bba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZnV0dXJpc3RpYyUyMGNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
+           <img src="https://images.unsplash.com/photo-1534445967719-8ae7b972b1a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGZ1dHVyaXN0aWMlMjBjaXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
             alt="architecture in the game" class="about-me__img" />
 
 <p className="highlight strong">Spawn into the open world planet and have access to a multiverse of many different planets and worlds where you can 
