@@ -67,6 +67,14 @@ section {
     color:white;
 }
 
+.bullet {
+    height: 20px;
+    width:20px;
+    border-radius: 50%;
+    background-color: linear-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%);
+    background: linear-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%);
+}
+
 img {
     display: block;
     max-width: 100%;
