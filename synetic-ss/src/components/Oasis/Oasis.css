@@ -77,16 +77,6 @@ img {
 }
 
 strong { font-weight: var(--fw-bold) }
-h1,
-h2,
-h3 {
-    line-height: 1;
-    margin: 0;
-}
-
-h1 { font-size: var(--fs-h1) }
-h2 { font-size: var(--fs-h2) }
-h3 { font-size: var(--fs-h3) }
 
 
 .section__title {
@@ -110,7 +100,7 @@ h3 { font-size: var(--fs-h3) }
 
 .section__subtitle--intro,
 .section__subtitle--about {
-    background: var(--clr-accent_second);
+    background: var(--clr-accent);
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
@@ -124,6 +114,14 @@ h3 { font-size: var(--fs-h3) }
 .about-me__img {
     box-shadow: var(--bs);
 }
+
+.sub-text{
+    border: 0.5px solid var(--clr-accent);
+    padding: .75em 1em;
+    letter-spacing: 0.5px;
+}
+
+
 @media (min-width: 600px) {
 
     .about-me {
@@ -150,6 +148,7 @@ h3 { font-size: var(--fs-h3) }
         
         .section__title--about {
             grid-area: title;
+            font-size: 4rem;
         }
         
         .section__subtitle--about {
@@ -169,8 +168,9 @@ h3 { font-size: var(--fs-h3) }
             height: 300px;
         }
 
-        .about-me_body p{
-            font-size: 1.5em;
+        .about-me__body{
             border: 5px solid tomato;
         }
+
+       
     }
