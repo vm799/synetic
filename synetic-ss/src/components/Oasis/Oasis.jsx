@@ -26,9 +26,9 @@ export default function Oasis(){
 
 <p className="highlight strong">Spawn into the open world planet and have access to a multiverse of many different planets and worlds where you can 
  fight other players for coins. </p>
-<p className="sub-text strong">Join virtual meetings with co-workers </p> 
-<p className="sub-text strong"> Walk into a vegas style casino or even fly a fighter-jet. </p>
-<p className="sub-text strong"> All from the comfort of your own home !</p>
+<p className=" sub-text ">Join virtual meetings with co-workers </p> 
+<p className=" sub-text"> Walk into a vegas style casino or even fly a fighter-jet. </p>
+<p className="sub-text"> All from the comfort of your own home !</p>
 
 </section>
 </>
