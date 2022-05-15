@@ -1,4 +1,4 @@
-.about-oasis {
+/* .about-oasis {
     max-width: 1000px;
     margin: 0 auto;
     color: white;
@@ -60,46 +60,103 @@
     border: 0.5px solid var(--clr-accent);
     padding: .75em 1em;
     letter-spacing: 0.5px;
+} */
+
+section {
+    padding: 5em 2em;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
+strong { font-weight: var(--fw-bold) }
+h1,
+h2,
+h3 {
+    line-height: 1;
+    margin: 0;
+}
+
+h1 { font-size: var(--fs-h1) }
+h2 { font-size: var(--fs-h2) }
+h3 { font-size: var(--fs-h3) }
+
+
+.section__title {
+    margin-bottom: .25em;
+}
+
+.section__title--intro {
+    font-weight: var(--fw-reg);
+}
+
+.section__title--intro strong {
+    display: block;
+}
+
+.section__subtitle {
+    margin: 0;
+    font-size: var(--fs-h3);
+}
+
+.section__subtitle--intro,
+.section__subtitle--about {
+    background: var(--clr-accent);
+    padding: .25em 1em;
+    font-family: var(--ff-secondary);
+    margin-bottom: 1em;
+}
+
+.about-me {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about-me__img {
+    box-shadow: var(--bs);
+}
 @media (min-width: 600px) {
-    .about-oasis {
-        display: grid;
-        grid-template-columns: 1fr 200px;
-        grid-template-areas: 
-            "title img"
-            "subtitle img"
-            "text img";
-        grid-column-gap: 2em;
-    }
 
-    
-    .section__title {
-        grid-area: title;
+    .about-me {
+        max-width: 1000px;
+        margin: 0 auto;
+        color: white;
     }
     
-    .section__subtitle--about
-    {
-        grid-area: subtitle;
-        grid-column: 1 / -1;
-        grid-row: 2;
-        position: relative;
-        left: -1em;
-        width: calc(100% + 2em);
-        padding-left: 1em;
-        padding-right: calc(200px + 4em);
-        margin-bottom:1em;
-        border: 5px solid salmon;
-        font-size: 1.5em;
-        text-transform:uppercase;
-        font-weight: 900;
-        letter-spacing: 5px;
+    .about-me__img {
+        box-shadow: var(--bs);
     }
-
     
-     img {
-        grid-area: img;
-        position: relative;
-        z-index: 10;
-    }
-}
+    @media (min-width: 600px) {
+        .about-me {
+            display: grid;
+            grid-template-columns: 1fr 200px;
+            grid-template-areas: 
+                "title img"
+                "subtitle img"
+                "text img";
+            grid-column-gap: 2em;
+        }
+        
+        .section__title--about {
+            grid-area: title;
+        }
+        
+        .section__subtitle--about {
+            grid-column: 1 / -1;
+            grid-row: 2;
+            position: relative;
+            left: -1em;
+            width: calc(100% + 2em);
+            padding-left: 1em;
+            padding-right: calc(200px + 4em);
+        }
+        
+        .about-me__img {
+            grid-area: img;
+            position: relative;
+            z-index: 2;
+        }
+    }}
