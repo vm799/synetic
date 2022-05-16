@@ -6,14 +6,14 @@ export default function Navbar(){
     const navToggle = document.querySelector('.nav-toggle');
     const navLinks = document.querySelectorAll('.nav__link');
 
-const menuToggle = () =>{
+const menuToggle = () => {
     navToggle.addEventListener('click', () => {
         document.body.classList.toggle('nav-open');
     });
     
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
-            document.body.classList.remove('nav-open');
+        document.body.classList.remove('nav-open');
         })
     })
 }
@@ -32,7 +32,7 @@ const menuToggle = () =>{
                     <li className="navlink"><a href="#Roadmap">Roadmap</a></li>
                     
             </ul> */}
-            
+
             </div>
            
            
@@ -43,10 +43,10 @@ const menuToggle = () =>{
 
             <nav class="nav">
             <div className="nav__list">
-               <ul> <li className="nav__link"><a href="#About" >About</a></li>
-                    <li className="nav__link"><a href="#Mint"  >Mint</a></li>
-                    <li className="nav__link"><a href="#Staking">Staking</a></li>
-                    <li className="nav__link"><a href="#Roadmap">Roadmap</a></li>
+               <ul> <li className="nav__links"><a href="#About" class="nav__link">About</a></li>
+                    <li className="nav__links"><a href="#Mint"  class="nav__link">Mint</a></li>
+                    <li className="nav__links"><a href="#Staking" class="nav__link">Staking</a></li>
+                    <li className="nav__links"><a href="#Roadmap" class="nav__link">Roadmap</a></li>
        
                </ul>
             </div>
