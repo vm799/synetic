@@ -36,7 +36,7 @@ header {
   }
 
   @media (max-width:400px){
-   #navlist_links a{
+   #navlist_links {
       display: none;
       border: 5px solid hotpink;
     }
