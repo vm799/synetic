@@ -35,12 +35,12 @@ header {
     font-family: var(--ff-tertiary);
   }
 
-  /* @media (max-width:400px){
+  @media (max-width:400px){
    #navlist_links a{
       display: none;
       border: 5px solid hotpink;
     }
-  } */
+  }
 
 
 .nav{
