@@ -3,7 +3,7 @@ header {
     justify-content:center;
     padding: 1em;
     align-items: center;
-   
+    position:fixed;
 }
 
 
@@ -57,7 +57,7 @@ header {
 flex-direction: column;
 align-items: center;
 justify-content: center;
-border: 5px solid magenta;
+
   }
 /* 
  .navlink{
@@ -98,7 +98,6 @@ font-family: var(--ff-secondary);
     font-weight: var(--fw-bold);
     font-size: 2rem;
     text-decoration: none;
-    border: 5px solid magenta;
 }
 
 .nav-link a{
@@ -247,12 +246,14 @@ header a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border: 5px solid lime;
+    border: 5px solid salmon;
+    width:100%;
   }
 
+
+
   
- /* .social-list .social-list__link{
-   
+  .social-list .social-list__link{
     width: 3rem; 
     height:3rem;
     display:flex;
@@ -262,7 +263,7 @@ header a {
    font-size: 1rem;
   padding-top: 2rem;
  border: 5px solid tomato;
-  } */
+  } 
 
 
 
