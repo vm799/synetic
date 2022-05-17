@@ -31,7 +31,6 @@ header {
     flex-direction: row;
     justify-content:center;
     align-items:center;
-   
     font-family: var(--ff-tertiary);
   }
 
@@ -152,7 +151,6 @@ width:110%;
     text-decoration: none;
     font-weight: var(--fw-bold);
     font-size: 1rem;
-    text-decoration: none;
     padding-top:0.6em;
 }
 
@@ -189,7 +187,7 @@ width:110%;
     opacity: 0;
 }
 .hamburger {
-   
+  margin: 1rem;
     display:block;
     position:relative;
 }
@@ -232,8 +230,11 @@ header a {
     
   }
 
+  .nav__list ul{
+    text-decoration: none;
+  }
 
-
+  
  /* .social-list .social-list__link{
    
     width: 3rem; 
