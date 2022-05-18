@@ -35,11 +35,11 @@ const menuToggle = () => {
 
             </div>
            
-           
+           <div className="hamburger-button">
             <button onClick={menuToggle} class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
             </button>
-          
+            </div>
 
             <nav class="nav">
             <div className="nav__list">
