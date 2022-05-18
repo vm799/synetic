@@ -171,13 +171,12 @@ width:110%;
 }
 
 .nav-toggle {
-    padding: 2.5rem;
+    margin: 2.5rem;
     background: transparent;
     border:0;
     cursor:pointer;
     position: absolute;
     right:1em;
-    top: 1em;
     z-index: 1000;
 }
 
@@ -279,6 +278,7 @@ header a {
 
   .social-list .social-list__link:hover {
     border: 5px solid white;
+    color: tomato;
   }
 
 
