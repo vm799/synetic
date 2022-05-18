@@ -8,11 +8,11 @@ export default function Oasis(){
     return(
 <>
         <section class="about-me" id="about">
-           <h2 class="section__title section__title--about">The Oasis</h2>
-           <p class="section__subtitle section__subtitle--about">Photorealistic, 
+           <h2 className="section__title section__title--about">The Oasis</h2>
+           <p className="section__subtitle section__subtitle--about">Photorealistic, 
         virtual  reality. </p>
            
-        <div class="about-me__body">
+        <div className="about-me__body">
            
             {/* <div className="circle-border"> */}
             {/* <div id="circle" > </div>
