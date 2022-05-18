@@ -7,6 +7,7 @@ export default function Navbar(){
     const navLinks = document.querySelectorAll('.nav__link');
 
 const menuToggle = () => {
+   
     navToggle.addEventListener('click', () => {
         document.body.classList.toggle('nav-open');
     });
