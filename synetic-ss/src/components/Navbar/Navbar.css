@@ -5,14 +5,21 @@ header {
     padding: 1em;
     align-items: center;
     position:fixed;
-    background-color: rgba(14, 14, 14, 0.624);
+    background-color: rgba(14, 14, 14, 0.805);
     width:100%;
-    border: 5px solid hotpink;
 }
 
-.hamburger-button{
-border: 5px solid orangered;
+
+.navbar_fixed{
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+  padding: 1em;
+  align-items: center;
+  width:100%;
+
 }
+
 
 .logo{
   display: flex;
@@ -20,7 +27,6 @@ border: 5px solid orangered;
     justify-content:space-between;
     align-items:center;
     width:80%;
-    border: 5px solid lime;
 }
 
 .logo a{
@@ -174,7 +180,6 @@ width:110%;
     right:1em;
     top: 1em;
     z-index: 1000;
-    border: 5px solid hotpink;
 }
 
 .nav-open  .nav{
