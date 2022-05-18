@@ -7,7 +7,7 @@ export default function Navbar(){
     const navLinks = document.querySelectorAll('.nav__link');
 
 const menuToggle = () => {
-   
+   console.log('booya')
     navToggle.addEventListener('click', () => {
         document.body.classList.toggle('nav-open');
     });
@@ -35,7 +35,7 @@ const menuToggle = () => {
             </div>
            
           
-            <button onClick={menuToggle} class="nav-toggle" aria-label="toggle navigation">
+            <button onClick={menuToggle} className="nav-toggle" aria-label="toggle navigation">
                 <span className="hamburger"></span>
             </button>
           
