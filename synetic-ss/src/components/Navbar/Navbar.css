@@ -4,7 +4,6 @@ header {
     flex-direction: row;
     padding: 1em;
     align-items: center;
-    position:fixed;
     background-color: rgba(14, 14, 14, 0.805);
     width:100%;
 }
