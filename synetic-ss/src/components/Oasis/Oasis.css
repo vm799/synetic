@@ -76,21 +76,20 @@ section {
     background:  linear-gradient(90deg, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%);
    margin-right: 1rem;
    
-}
 
+}
+/* 
 .circle-border{
     border: 1px solid rgba(233,0,179,1);
     border-collapse: separate;
-    border-spacing: 15px;
-    padding: 0.25rem;
-   
+    border-spacing: 15px;  
     border-radius: 50%;
     height: 10px;
     width:10px;
     display: flex;
    justify-content: center;
    align-items: center;
-}
+} */
 
 img {
     display: block;
@@ -131,6 +130,7 @@ img {
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
+    box-shadow: var(--bs);
 }
 
 .about-me {
