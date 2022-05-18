@@ -21,10 +21,9 @@ const menuToggle = () => {
     return (
        
         <header>
-            
+            <div className="navbar_fixed">
             <div className="logo">
-            <a href="/" > SYNETIC  </a>
-            
+            <a href="/" > SYNETIC  </a>  
             {/* <ul id="navlist_links">
                     <li className="navlink"><a href="#About" >About</a></li>
                     <li className="navlink"><a href="#Mint"  >Mint</a></li>
@@ -32,7 +31,6 @@ const menuToggle = () => {
                     <li className="navlink"><a href="#Roadmap">Roadmap</a></li>
                     
             </ul> */}
-
             </div>
            
            <div className="hamburger-button">
@@ -40,6 +38,7 @@ const menuToggle = () => {
                 <span class="hamburger"></span>
             </button>
             </div>
+        </div>
 
             <nav class="nav">
             <div className="nav__list">
