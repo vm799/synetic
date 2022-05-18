@@ -1,10 +1,13 @@
 header {
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     flex-direction: row;
     padding: 1em;
     align-items: center;
     position:fixed;
+    background-color: rgba(14, 14, 14, 0.624);
+    width:100%;
+    border: 5px solid hotpink;
 }
 
 
@@ -15,7 +18,7 @@ header {
     justify-content:space-between;
     align-items:center;
     width:80%;
-   
+    border: 5px solid lime;
 }
 
 .logo a{
@@ -169,7 +172,7 @@ width:110%;
     right:1em;
     top: 1em;
     z-index: 1000;
-   
+    border: 5px solid hotpink;
 }
 
 .nav-open  .nav{
@@ -196,6 +199,7 @@ width:110%;
   margin: 1rem;
     display:block;
     position:relative;
+   
 }
 
 .hamburger,
