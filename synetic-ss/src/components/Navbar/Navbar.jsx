@@ -7,6 +7,7 @@ export default function Navbar(){
     const navLinks = document.querySelectorAll('.nav__link');
 
 const menuToggle = () => {
+    console.log("boyyyakashaaaa")
     navToggle.addEventListener('click', () => {
         document.body.classList.toggle('nav-open');
     });
@@ -21,7 +22,7 @@ const menuToggle = () => {
     return (
        
         <header>
-            <div className="navbar_fixed">
+            {/* <div className="navbar_fixed"> */}
             <div className="logo">
             <a href="/" > SYNETIC  </a>  
             {/* <ul id="navlist_links">
@@ -35,17 +36,17 @@ const menuToggle = () => {
            
           
             <button onClick={menuToggle} class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
+                <span className="hamburger"></span>
             </button>
           
-        </div>
+        {/* </div> */}
 
             <nav class="nav">
             <div className="nav__list">
-               <ul> <li className="nav__links"><a href="#About" class="nav__link">About</a></li>
-                    <li className="nav__links"><a href="#Mint"  class="nav__link">Mint</a></li>
-                    <li className="nav__links"><a href="#Staking" class="nav__link">Staking</a></li>
-                    <li className="nav__links"><a href="#Roadmap" class="nav__link">Roadmap</a></li>
+               <ul> <li className="nav__links"><a href="#About" className="nav__link">About</a></li>
+                    <li className="nav__links"><a href="#Mint"  className="nav__link">Mint</a></li>
+                    <li className="nav__links"><a href="#Staking" className="nav__link">Staking</a></li>
+                    <li className="nav__links"><a href="#Roadmap" className="nav__link">Roadmap</a></li>
        
                </ul>
             </div>
