@@ -1,13 +1,14 @@
 import React from 'react';
-import { StyledBurger } from './Burger.styled';
+import "../Burger/Burger.css"
 
 export default function Burger() {
   return (
-    <StyledBurger>
-      <div />
-      <div />
-      <div />
-    </StyledBurger>
+   
+     <div className='burger'>
+        <div></div> 
+        <div></div>
+     </div>
+
   )
 }
 
