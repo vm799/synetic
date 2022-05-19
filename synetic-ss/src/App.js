@@ -16,7 +16,7 @@ import DotRing from "./components/DotRing/DotRing";
 import "./App.css";
 import { MouseContext } from "./context/mouse-context";
 import { ThemeProvider } from 'styled-components';
-import { Burger, Menu } from './components/Burger/Burger';
+import { Burger } from './components/Burger/Burger';
 
 function App() {
   const { cursorType, cursorChangeHandler } = useContext(MouseContext);
