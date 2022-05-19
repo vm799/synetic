@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../Navbar/Navbar.css";
-import Burger from "../Burger/Burger"
+import Burger from "../Burger/Burger";
+import Menu from "../Menu/Menu";
 
 export default function Navbar(){
     // const navToggle = document.querySelector('.nav-toggle');
@@ -18,7 +19,7 @@ export default function Navbar(){
 //         })
 //     })
 // }
-
+const [open, setOpen] = useState(false);
 
 
     return (
@@ -35,8 +36,9 @@ export default function Navbar(){
                     
             </ul> */}
             </div>
-           <Burger />
-{/*           
+           <Burger open={open} setOpen={setOpen} />
+           <Menu open={open} setOpen={setOpen} />
+{/*        
             <button onClick={ toggleHamburger } className="nav-toggle" aria-label="toggle navigation">
                 <span className="hamburger"></span>
             </button> */}

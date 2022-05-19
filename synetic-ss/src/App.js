@@ -1,4 +1,4 @@
-import React, { useContext} from "react";
+import React, { useState, useContext} from "react";
 import Navbar from "./components/Navbar/Navbar"
 import Team from "./components/Team/Team"
 // import Syneverse from "./components/Syneverse/Syneverse"
@@ -19,7 +19,8 @@ import  Burger  from './components/Burger/Burger';
 
 function App() {
   const { cursorType, cursorChangeHandler } = useContext(MouseContext);
-  
+
+
   return(
     <div className="App">
       
