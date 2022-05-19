@@ -6,7 +6,8 @@ header {
     align-items: center;
     background-color: rgba(14, 14, 14, 0.805);
     width:100%;
- 
+    position: fixed;
+    z-index: 1000;
 }
 
 
