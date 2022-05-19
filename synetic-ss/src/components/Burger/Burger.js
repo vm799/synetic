@@ -7,6 +7,7 @@ export default function Burger() {
      <div className='burger'>
         <div></div> 
         <div></div>
+        <div></div>
      </div>
 
   )
