@@ -1,1 +1,1 @@
-export { default } from './Burger';
+export { Burger } from './components/Burger/Burger';
