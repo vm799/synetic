@@ -44,7 +44,7 @@ function App() {
             <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
             <Menu open={open} setOpen={setOpen} id={menuId} />
           </FocusLock>
-        </div>
+        
 
          <Navbar />
          <Hero />
@@ -59,7 +59,7 @@ function App() {
          <Roadmap />
          <Contact />
          <Footer /> 
-    
+         </div>
     </div>
         )
 }
