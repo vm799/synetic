@@ -32,11 +32,8 @@ function App() {
         
         </div>
       </div>
-    
-      <Burger />
-    
-
-      <Navbar />
+    <Navbar />
+    <Burger />
          <Hero />
          <ImageSlider />
          <ImageSlider2 />
