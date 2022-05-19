@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyledBurger } from './Burger.styled';
 
-const Burger = () => {
+export default function Burger() {
   return (
     <StyledBurger>
       <div />
@@ -11,4 +11,3 @@ const Burger = () => {
   )
 }
 
-export default Burger;
