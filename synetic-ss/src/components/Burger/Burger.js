@@ -1,10 +1,11 @@
 import React from 'react';
-import "../Burger/Burger.css"
+import "../Burger/Burger.css";
+import { bool, func } from 'prop-types';
 
-export default function Burger() {
+const Burger = ({open, setOpen}) => {
   return (
    
-     <div className='burger'>
+     <div className='burger' open={open} onClick={() => setOpen(!open)}>
         <div></div> 
         <div></div>
         <div></div>
@@ -13,3 +14,8 @@ export default function Burger() {
   )
 }
 
+Burger.propTypes = {
+    open: bool.isRequired,
+    setOpen: func.isRequired,
+};
+export default Burger;
