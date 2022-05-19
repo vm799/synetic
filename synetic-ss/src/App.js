@@ -1,4 +1,4 @@
-import React, { useState, useContext} from "react";
+import React, { useState, useContext, useRef } from "react";
 import Navbar from "./components/Navbar/Navbar"
 import Team from "./components/Team/Team"
 // import Syneverse from "./components/Syneverse/Syneverse"
@@ -15,11 +15,18 @@ import Oasis from "./components/Oasis/Oasis";
 import DotRing from "./components/DotRing/DotRing";
 import "./App.css";
 import { MouseContext } from "./context/mouse-context";
-import  Burger  from './components/Burger/Burger';
+import FocusLock from 'react-focus-lock';
+import { Burger, Menu } from './components';
+import { useOnClickOutside } from './hooks/useOnClickOutside';
+
 
 function App() {
   const { cursorType, cursorChangeHandler } = useContext(MouseContext);
+  const [open, setOpen] = useState(false);
+  const node = useRef();
+  const menuId = "main-menu";
 
+  useOnClickOutside(node, () => setOpen(false));
 
   return(
     <div className="App">
@@ -30,11 +37,16 @@ function App() {
           onMouseEnter={() => cursorChangeHandler("hovered")}
           onMouseLeave={() => cursorChangeHandler("")}
         >
-        
         </div>
       </div>
-    <Navbar />
-    {/* <Burger /> */}
+      <div ref={node}>
+          <FocusLock disabled={!open}>
+            <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
+            <Menu open={open} setOpen={setOpen} id={menuId} />
+          </FocusLock>
+        </div>
+
+         <Navbar />
          <Hero />
          <ImageSlider />
          <ImageSlider2 />

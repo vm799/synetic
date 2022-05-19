@@ -1,1 +1,1 @@
-export { Burger } from './components/Burger/Burger';
+export { default } from './Menu';
