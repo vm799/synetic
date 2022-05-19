@@ -3,21 +3,23 @@ import "../Navbar/Navbar.css";
 
 
 export default function Navbar(){
-    const navToggle = document.querySelector('.nav-toggle');
-    const navLinks = document.querySelectorAll('.nav__link');
+    // const navToggle = document.querySelector('.nav-toggle');
+    // const navLinks = document.querySelectorAll('.nav__link');
 
-const menuToggle = () => {
-   console.log('booya')
-    navToggle.addEventListener('click', () => {
-        document.body.classList.toggle('nav-open');
-    });
+// const handleClick = () => {
+//    console.log('booya')
+//     navToggle.addEventListener('click', () => {
+//         document.body.classList.toggle('nav-open');
+//     });
     
-    navLinks.forEach(link => {
-        link.addEventListener('click', () => {
-        document.body.classList.remove('nav-open');
-        })
-    })
-}
+//     navLinks.forEach(link => {
+//         link.addEventListener('click', () => {
+//         document.body.classList.remove('nav-open');
+//         })
+//     })
+// }
+
+
 
     return (
        
@@ -35,13 +37,13 @@ const menuToggle = () => {
             </div>
            
           
-            <button onClick={menuToggle} className="nav-toggle" aria-label="toggle navigation">
+            <button onClick={ toggleHamburger } className="nav-toggle" aria-label="toggle navigation">
                 <span className="hamburger"></span>
             </button>
           
         {/* </div> */}
 
-            <nav className="nav">
+            <nav class="nav">
             <div className="nav__list">
                <ul> <li className="nav__links"><a href="#About" className="nav__link">About</a></li>
                     <li className="nav__links"><a href="#Mint"  className="nav__link">Mint</a></li>
