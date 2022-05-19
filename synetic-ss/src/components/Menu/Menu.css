@@ -3,26 +3,25 @@
 display: flex;
 flex-direction: column;
 justify-content: center;
-background: var(--clr-dark);
-height: 80vh;
+background-color: rgba(14, 14, 14, 0.866);
+height: 60vh;
 text-align: center;
 /* padding: 2rem; */
 position: absolute;
 top: 0;
-
 transition: transform 0.3s ease-in-out;
 cursor: pointer;
 width: 100%;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .menu{
     width: 100%;
 }
-}
+} */
 
 .menu a {
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   padding: 1rem 0;
   font-weight: bold;
@@ -41,4 +40,12 @@ width: 100%;
 
   a:hover {
     color: var(--clr-accent);
+    background-color: rgba(0,153,202,1);
+    background-image: radial-gradient(circle, rgba(233,0,179,1) 20%, rgba(0,153,202,1) 100%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
   }
