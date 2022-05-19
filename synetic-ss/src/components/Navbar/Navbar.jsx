@@ -43,7 +43,7 @@ export default function Navbar(){
           
         {/* </div> */}
 
-            <nav class="nav">
+            <nav className="nav">
             <div className="nav__list">
                <ul> <li className="nav__links"><a href="#About" className="nav__link">About</a></li>
                     <li className="nav__links"><a href="#Mint"  className="nav__link">Mint</a></li>
