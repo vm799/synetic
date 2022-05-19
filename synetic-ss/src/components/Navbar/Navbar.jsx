@@ -36,10 +36,10 @@ export default function Navbar(){
             </ul> */}
             </div>
            
-          
+{/*           
             <button onClick={ toggleHamburger } className="nav-toggle" aria-label="toggle navigation">
                 <span className="hamburger"></span>
-            </button>
+            </button> */}
           
         {/* </div> */}
 
