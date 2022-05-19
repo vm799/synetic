@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../Navbar/Navbar.css";
-
+import Burger from "../Burger/Burger"
 
 export default function Navbar(){
     // const navToggle = document.querySelector('.nav-toggle');
@@ -35,7 +35,7 @@ export default function Navbar(){
                     
             </ul> */}
             </div>
-           
+           <Burger />
 {/*           
             <button onClick={ toggleHamburger } className="nav-toggle" aria-label="toggle navigation">
                 <span className="hamburger"></span>

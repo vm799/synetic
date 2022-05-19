@@ -33,7 +33,7 @@ function App() {
         </div>
       </div>
     <Navbar />
-    <Burger />
+    {/* <Burger /> */}
          <Hero />
          <ImageSlider />
          <ImageSlider2 />
