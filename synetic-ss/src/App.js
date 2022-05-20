@@ -13,7 +13,6 @@ import TextSlider from "./components/TextSlider/TextSlider";
 import ImageSlider2 from "./components/ImageSlider2/ImageSlider2";
 import Oasis from "./components/Oasis/Oasis";
 import DotRing from "./components/DotRing/DotRing";
-import "./App.css";
 import { MouseContext } from "./context/mouse-context";
 import FocusLock from 'react-focus-lock';
 import { Burger, Menu } from './components';
@@ -31,11 +30,10 @@ function App() {
   useOnClickOutside(node, () => setOpen(false));
 
   return(
-    <div className="App">
-
-
+  
     <ThemeProvider theme={theme}>
-      <>
+       {/* <div className="App"> */}
+      
         <GlobalStyles />
         <div>
           <h1>Hello. This is burger menu tutorial</h1>
@@ -45,15 +43,15 @@ function App() {
           <Burger open={open} setOpen={setOpen} />
           <Menu open={open} setOpen={setOpen} />
         </div>
-      </>
-  </ThemeProvider>
+      
+
  
 
 
 
 
    
-      
+{/*       
       <DotRing />
       <div className="container">
         <div
@@ -77,13 +75,14 @@ function App() {
          <Team />
          <TextSlider />
          {/* <Syneverse /> */}
-         <NFTgame />
+         {/* <NFTgame />
          <About />
          <Roadmap />
          <Contact />
          <Footer /> 
          </div>
-    </div>
+    </div>  */}
+    </ThemeProvider>
          );
 }
 
