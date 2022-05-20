@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const StyledBurger = styled.button`
   position: absolute;
   top: 5%;
-  left: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -17,7 +16,7 @@ export const StyledBurger = styled.button`
   span {
     width: 2rem;
     height: 0.25rem;
-    background: ${({ theme, open }) => open ? theme.primaryDark : theme.primaryLight};
+    background: radial-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%);
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;

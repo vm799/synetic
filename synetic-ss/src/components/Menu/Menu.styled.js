@@ -4,14 +4,13 @@ export const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: ${({ theme }) => theme.primaryLight};
+  background: black;
   transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
   height: 100vh;
-  text-align: left;
+  text-align:center;
   padding: 2rem;
   position: absolute;
   top: 0;
-  left: 0;
   transition: transform 0.3s ease-in-out;
  
   a {
