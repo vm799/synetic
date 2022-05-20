@@ -31,18 +31,22 @@ function App() {
 
   return(
   
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={ theme }>
        {/* <div className="App"> */}
-      
-        <GlobalStyles />
+      <>
+      <GlobalStyles />
+        <div ref={node}>
+          <FocusLock disabled={!open}>
+            <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
+            <Menu open={open} setOpen={setOpen} id={menuId} />
+          </FocusLock>
+        </div>
         <div>
           <h1>Hello. This is burger menu tutorial</h1>
-          <img src="https://media.giphy.com/media/xTiTnwj1LUAw0RAfiU/giphy.gif" alt="animated burger" />
+          
+          <small>Icon made by <a href="https://www.freepik.com/home">Freepik</a> from <a href="https://www.flaticon.com">www.flaticon.com</a></small>
         </div>
-        <div>
-          <Burger open={open} setOpen={setOpen} />
-          <Menu open={open} setOpen={setOpen} />
-        </div>
+        </>
       
 
  
