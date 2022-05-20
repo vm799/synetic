@@ -18,7 +18,9 @@ import { MouseContext } from "./context/mouse-context";
 import FocusLock from 'react-focus-lock';
 import { Burger, Menu } from './components';
 import { useOnClickOutside } from './hooks/useOnClickOutside';
-
+import { ThemeProvider } from 'styled-components';
+import { GlobalStyles } from './global';
+import { theme } from './theme';
 
 function App() {
   const { cursorType, cursorChangeHandler } = useContext(MouseContext);
@@ -30,6 +32,27 @@ function App() {
 
   return(
     <div className="App">
+
+
+    <ThemeProvider theme={theme}>
+      <>
+        <GlobalStyles />
+        <div>
+          <h1>Hello. This is burger menu tutorial</h1>
+          <img src="https://media.giphy.com/media/xTiTnwj1LUAw0RAfiU/giphy.gif" alt="animated burger" />
+        </div>
+        <div>
+          <Burger open={open} setOpen={setOpen} />
+          <Menu open={open} setOpen={setOpen} />
+        </div>
+      </>
+  </ThemeProvider>
+ 
+
+
+
+
+   
       
       <DotRing />
       <div className="container">
@@ -61,7 +84,7 @@ function App() {
          <Footer /> 
          </div>
     </div>
-        )
+         );
 }
 
 export default App;
