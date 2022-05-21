@@ -34,10 +34,9 @@ function App() {
   
     <ThemeProvider theme={ theme }>
        {/* <div className="App"> */}
-      <>
       <GlobalStyles />
         <div ref={node}>
-          <FocusLock disabled={!open}>
+          {/* <FocusLock disabled={!open}>
             <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
             <Menu open={open} setOpen={setOpen} id={menuId} />
           </FocusLock>
@@ -47,7 +46,7 @@ function App() {
           
           <small>Icon made by <a href="https://www.freepik.com/home">Freepik</a> from <a href="https://www.flaticon.com">www.flaticon.com</a></small>
         </div>
-        </>
+        </> */}
       
 
  
@@ -56,7 +55,7 @@ function App() {
 
 
    
-{/*       
+      
       <DotRing />
       <div className="container">
         <div
@@ -79,14 +78,14 @@ function App() {
          <Oasis />
          <Team />
          <TextSlider />
-         {/* <Syneverse /> */}
-         {/* <NFTgame />
+          {/* <Syneverse />  */}
+         <NFTgame />
          <About />
          <Roadmap />
          <Contact />
          <Footer /> 
          </div>
-    </div>  */}
+ </div>
     </ThemeProvider>
          );
 }
