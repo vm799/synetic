@@ -3,7 +3,7 @@ import "../Roadmap/Roadmap.css";
 
 export default function Roadmap(){
     return(
-        <div className="roadmap_block">
+        <div id="roadmap" className="roadmap_block">
         <div className="roadmap_title">
             <h1>ROADMAP</h1></div>
         <div className="roadmap">
