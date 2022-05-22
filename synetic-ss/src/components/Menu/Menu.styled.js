@@ -1,31 +1,32 @@
+import { faBlackboard } from '@fortawesome/free-solid-svg-icons';
 import styled from 'styled-components';
 
+
 export const StyledMenu = styled.nav`
+top:5%;
 display: flex;
 flex-direction: column;
 justify-content: center;
-background: var(--clr-dark);
-height: 50vh;
-text-align: center;
+background: rgb(0,0,0);
+background: rgb(84,2,68);
+background: rgb(84,2,68);
+background: linear-gradient(0deg, rgba(84,2,68,0.6221498371335505) 0%, rgba(22,21,21,1) 64%);text-align: center;
 padding: 1.5rem;
 position: absolute;
-top: 1rem;
-transition: transform 0.3s ease-in-out;
+transition: transform 0.7s ease-in-out;
 transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
 cursor:pointer;
+width:100%;
 
-@media (max-width: ${({ theme }) => theme.mobile}) {
-  width: 100%;
-}
 
 a {
   font-size: 2rem;
   text-transform: uppercase;
-  padding: 2rem 0;
+padding: 1.5rem;
   font-weight: bold;
   letter-spacing: 0.5rem;
   background-color: rgba(0,153,202,1);
-    background-image: radial-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 50%);
+    background-image: radial-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 30%);
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
