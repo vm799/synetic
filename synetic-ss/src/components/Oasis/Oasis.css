@@ -151,6 +151,16 @@ img {
     font-weight: bolder
 }
 
+.highlight-body, .sub-text{
+        font-family: var(--ff-tertiary);
+        line-height: 20px;
+        letter-spacing: 0.5;
+        border: 1px solid var(--clr-accent_second);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        padding:1rem;
+}
 
 @media (min-width: 600px) {
 
