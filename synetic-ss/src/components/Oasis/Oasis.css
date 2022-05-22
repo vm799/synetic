@@ -153,13 +153,14 @@ img {
 
 .highlight-body, .sub-text{
         font-family: var(--ff-tertiary);
-        line-height: 20px;
+        line-height: 30px;
         letter-spacing: 0.5;
-        border: 1px solid var(--clr-accent_second);
+        /* border: 1px solid var(--clr-accent); */
         display:flex;
         align-items: center;
         justify-content: center;
         padding:1rem;
+        box-shadow: 1px 1px 10px 0.5px pink;
 }
 
 @media (min-width: 600px) {
