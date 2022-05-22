@@ -2,32 +2,21 @@ import React, { useState } from "react";
 import "../Navbar/Navbar.css";
 import Burger from "../Burger/Burger";
 import Menu from "../Menu/Menu";
+import { Link } from "react-scroll";
+
+
 
 export default function Navbar(){
-    // const navToggle = document.querySelector('.nav-toggle');
-    // const navLinks = document.querySelectorAll('.nav__link');
-
-// const handleClick = () => {
-//    console.log('booya')
-//     navToggle.addEventListener('click', () => {
-//         document.body.classList.toggle('nav-open');
-//     });
-    
-//     navLinks.forEach(link => {
-//         link.addEventListener('click', () => {
-//         document.body.classList.remove('nav-open');
-//         })
-//     })
-// }
+  
 const [open, setOpen] = useState(false);
 
 
     return (
-       
+<div>
         <header>
             {/* <div className="navbar_fixed"> */}
             <div className="logo">
-            <a href="/" > SYNETIC  </a>  
+            <Link to="/" smooth={true} duration={1000}> SYNETIC  </Link>  
             {/* <ul id="navlist_links">
                     <li className="navlink"><a href="#About" >About</a></li>
                     <li className="navlink"><a href="#Mint"  >Mint</a></li>
@@ -47,34 +36,35 @@ const [open, setOpen] = useState(false);
 
             <nav className="nav">
             <div className="nav__list">
-               <ul> <li className="nav__links"><a href="#About" className="nav__link">About</a></li>
-                    <li className="nav__links"><a href="#Mint"  className="nav__link">Mint</a></li>
-                    <li className="nav__links"><a href="#Staking" className="nav__link">Staking</a></li>
-                    <li className="nav__links"><a href="#Roadmap" className="nav__link">Roadmap</a></li>
+               <ul> <li className="nav__links nav-item"><Link to="About" smooth={true} duration={1000} className="nav__link">About</Link></li>
+                    <li className="nav__links nav-item"><Link to="Mint" smooth={true} duration={1000} className="nav__link">Mint</Link></li>
+                    <li className="nav__links nav-item"><Link to="Staking" smooth={true} duration={1000} className="nav__link">Staking</Link></li>
+                    <li className="nav__links nav-item"><Link to="Roadmap" smooth={true} duration={1000} className="nav__link">Roadmap</Link></li>
        
                </ul>
             </div>
 
         <div className="social-list">
                
-                        <a className="social-list__link" href="https://twitter.com/_sinister_souls">
+                        <Link className="social-list__link" to="https://twitter.com/_sinister_souls">
                          <i className="fab fa-discord"></i>
-                         </a>
+                         </Link>
 
-                         <a className="social-list__link" href="https://twitter.com/_sinister_souls">
+                         <Link className="social-list__link" to="https://twitter.com/_sinister_souls">
                          <i className="fab fa-medium"></i>
-                        </a>
+                        </Link>
 
-                         <a className="social-list__link" href="https://twitter.com/_sinister_souls">
+                         <Link className="social-list__link" to="https://twitter.com/_sinister_souls">
                          <i className="fab fa-twitter"></i>
-                        </a>
+                        </Link>
         </div>
 
     
             
             </nav>
         </header>
-    
+        <a onClick={this.scrollToTop}>To the top!</a>
+        </div>
        
     )}
 

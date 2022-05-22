@@ -17,7 +17,7 @@ const Menu = ({ open, ...props }) => {
         <span aria-hidden="true"></span>
         Team
         </a>
-      <a href="#mint" tabIndex={tabIndex}>
+      <a href="#hero-text" tabIndex={tabIndex}>
         <span aria-hidden="true"></span>
        Mint
         </a>

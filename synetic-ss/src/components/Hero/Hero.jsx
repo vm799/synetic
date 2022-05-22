@@ -3,7 +3,7 @@ import "../Hero/Hero.css"
 
 export default function Hero(){
     return(
-        <div className="hero section-transition">
+        <div id="hero" className="hero section-transition">
             <div className="hero-text">
                 <h1>SYNETIC</h1>
                 <h3>Welcome to the future.</h3>
