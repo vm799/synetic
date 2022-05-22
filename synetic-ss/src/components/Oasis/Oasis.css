@@ -108,7 +108,7 @@ img {
 .section__title {
     margin-bottom: .25em;
     font-family: var(--ff-primary);
-   
+   text-shadow: var(--bs);
 }
 
 .section__title--intro {
@@ -130,7 +130,7 @@ img {
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
-    box-shadow: var(--bs);
+    /* box-shadow: var(--bs); */
 }
 
 .about-me {
@@ -139,7 +139,7 @@ img {
 }
 
 .about-me__img {
-    box-shadow: var(--bs);
+    /* box-shadow: var(--bs); */
 }
 
 .sub-text{
