@@ -48,6 +48,8 @@
     padding: 2em;
 }
 
+
+
 @media (min-width:800px){
   .team-container{
   display: flex;
@@ -85,7 +87,7 @@
   animation: wipe-enter 5s 1;
 }
 
-
+.team__box
 
 .team__title p{
   font-size: 2rem;
@@ -94,8 +96,10 @@ font-family: var(--ff-secondary);
 margin-top:1rem;
 padding:0;
 color: var(--clr-accent);
-
+text-shadow: 2px 2px 5px var(--clr-accent_second);
 }
+
+
 
 .team__box:hover{
   border: 1px solid var(--clr-accent_second);
