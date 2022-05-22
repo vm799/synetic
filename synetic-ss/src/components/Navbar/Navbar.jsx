@@ -63,7 +63,6 @@ const [open, setOpen] = useState(false);
             
             </nav>
         </header>
-        <a onClick={this.scrollToTop}>To the top!</a>
         </div>
        
     )}
