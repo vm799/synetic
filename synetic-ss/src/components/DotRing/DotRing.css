@@ -5,7 +5,7 @@
     width: 32px;
     height: 32px;
     /* border: 1px solid rgb(255, 255, 255); */
-    border: 1px solid linear-gradient(90deg, rgb(247, 0, 189) 0%, rgba(0,153,202,1) 100%);
+    border: 1px solid  rgb(177, 0, 247);
   
     border-radius: 100%;
     transform: translate(-50%, -50%);
@@ -14,7 +14,7 @@
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
     will-change: width, height, transform, border;
-    z-index: 999;
+    z-index: 1999;
     pointer-events: none;
   }
   
