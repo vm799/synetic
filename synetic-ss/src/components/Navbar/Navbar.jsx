@@ -11,16 +11,16 @@ export default function Navbar(){
 const [open, setOpen] = useState(false);
     return (
         <header>
-            <div className="logo" onClick ={ () => 
-                animateScroll.scrollToTop()}> SYNETIC </div>
-            <Link to="/" smooth={true} duration={1000}> SYNETIC  </Link>  
+            <div className="logo"> 
+            <Link to="/" smooth={true} duration={3000} onClick ={ () => 
+                animateScroll.scrollToTop()}> SYNETIC  </Link>  
             {/* <ul id="navlist_links">
                     <li className="navlink"><a href="#About" >About</a></li>
                     <li className="navlink"><a href="#Mint"  >Mint</a></li>
                     <li className="navlink"><a href="#Staking">Staking</a></li>
                     <li className="navlink"><a href="#Roadmap">Roadmap</a></li>          
             </ul> */}
-            {/* </div> */}
+            </div>
            <Burger open={open} setOpen={setOpen} />
            <Menu open={open} setOpen={setOpen} />
 {/*        
@@ -32,10 +32,10 @@ const [open, setOpen] = useState(false);
 
             <nav className="nav">
             <div className="nav__list">
-               <ul> <li className="nav__links nav-item"><Link to="About" smooth={true} duration={1000} className="nav__link">About</Link></li>
-                    <li className="nav__links nav-item"><Link to="Mint" smooth={true} duration={1000} className="nav__link">Mint</Link></li>
-                    <li className="nav__links nav-item"><Link to="Staking" smooth={true} duration={1000} className="nav__link">Staking</Link></li>
-                    <li className="nav__links nav-item"><Link to="Roadmap" smooth={true} duration={1000} className="nav__link">Roadmap</Link></li>
+               <ul> <li className="nav__links nav-item"><Link to="About" smooth={true} duration={3000} className="nav__link">About</Link></li>
+                    <li className="nav__links nav-item"><Link to="Mint" smooth={true} duration={3000} className="nav__link">Mint</Link></li>
+                    <li className="nav__links nav-item"><Link to="Staking" smooth={true} duration={3000} className="nav__link">Staking</Link></li>
+                    <li className="nav__links nav-item"><Link to="Roadmap" smooth={true} duration={3000} className="nav__link">Roadmap</Link></li>
        
                </ul>
             </div>
