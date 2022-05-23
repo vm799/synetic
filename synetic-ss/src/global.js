@@ -2,7 +2,6 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
 
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=DM+Mono:wght@300&family=Inter:wght@100;200;300&display=swap');
 
 *,
 *::before,
