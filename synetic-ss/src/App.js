@@ -14,7 +14,7 @@ import ImageSlider2 from "./components/ImageSlider2/ImageSlider2";
 import Oasis from "./components/Oasis/Oasis";
 import DotRing from "./components/DotRing/DotRing";
 import { MouseContext } from "./context/mouse-context";
-// import FocusLock from 'react-focus-lock';
+import FocusLock from 'react-focus-lock';
 import {  Menu } from './components';
 import { Burger } from './components';
 import { useOnClickOutside } from './hooks/useOnClickOutside';
@@ -30,14 +30,16 @@ function App() {
 
   const node = useRef();
   const menuId = "main-menu";
-  useOnClickOutside = (node, () => setOpen(false));
+
+  useOnClickOutside(node, () => setOpen(false));
 
   return(
   
     <ThemeProvider theme={ theme }>
      <>
       <GlobalStyles />
-            <DotRing />
+      <DotRing />
+
       <div className="container">
         <div
           onMouseEnter={() => cursorChangeHandler("hovered")}
@@ -45,13 +47,15 @@ function App() {
         >
         </div>
       </div>
+
       <div ref={node}>
-          {/* <FocusLock disabled={!open}> */}
+          <FocusLock disabled={!open}>
             <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
             <Menu open={open} setOpen={setOpen} id={menuId} />
-          {/* </FocusLock> */}
-          </div>
+          </FocusLock>
+      </div>
 
+      
          <Navbar />
          <Hero />
          <ImageSlider />
@@ -64,6 +68,8 @@ function App() {
          <Roadmap />
          <Contact />
          <Footer /> 
+  
+
          </>
     </ThemeProvider>
          );
