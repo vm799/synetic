@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useEffect, useState} from "react";
 import "../NFTgame/NFTgame.css"
 
 export default function NFTgame (){
+
+    const [offsetY, setOffsetY]=  useState(0);
+    const handleScroll =() => setOffsetY(window.pageYOffset);
+    
+      useEffect(()=>{
+      window.addEventListener("scroll", handleScroll);
+      return() => window.removeEventListener("scroll", handleScroll);
+    },[]);
+   
+
     return(
-        <div id="main">
+        <div id="main"
+        style={{ transform: `translateY(${offsetY * 0.5}px)` }} >
           
             <div className="NFTgame-heading">
                <h2>NFT GAMING</h2>

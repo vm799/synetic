@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../Roadmap/Roadmap.css";
 
 export default function Roadmap(){
+    const [offsetY, setOffsetY]=  useState(0);
+    const handleScroll =() => setOffsetY(window.pageYOffset);
+    
+      useEffect(()=>{
+      window.addEventListener("scroll", handleScroll);
+      return() => window.removeEventListener("scroll", handleScroll);
+    },[]);
+   
+
     return(
         <div id="roadmap" className="roadmap_block">
         <div className="roadmap_title">
             <h1>ROADMAP</h1></div>
-        <div className="roadmap">
+        <div 
+        className="roadmap"
+        style={{ transform: `translateY(${offsetY * 0.5}px)` }} >
             
             <div className="roadmap_title-box">
             <div className="roadmap_number">

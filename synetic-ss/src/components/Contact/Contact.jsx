@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../Contact/Contact.css"
 
 export default function Contact (){
+
+    const [offsetY, setOffsetY]=  useState(0);
+    const handleScroll =() => setOffsetY(window.pageYOffset);
+    
+      useEffect(()=>{
+      window.addEventListener("scroll", handleScroll);
+      return() => window.removeEventListener("scroll", handleScroll);
+    },[]);
+    
+
     return(
-        <div id="contact">
+        <div 
+        id="contact"
+        style={{ transform: `translateY(${offsetY * 0.5}px)` }} >
             <h1>CONTACT US</h1>
             <form>
                 <input type="text"

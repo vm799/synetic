@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../Footer/Footer.css"
 
 
 export default function Footer(){
   
+  const [offsetY, setOffsetY]=  useState(0);
+    const handleScroll =() => setOffsetY(window.pageYOffset);
+    
+      useEffect(()=>{
+      window.addEventListener("scroll", handleScroll);
+      return() => window.removeEventListener("scroll", handleScroll);
+    },[]);
+ 
+
     return (
     // <footer class="footer">
     //     <a href="sinistersouls2922@gmail.com" class="footer__link">sinistersouls2922@gmail.com</a>
@@ -25,7 +34,7 @@ export default function Footer(){
       
     // </footer>
     
-    <footer className="footer">
+    <footer className="footer"    style={{ transform: `translateY(${offsetY * 0.5}px)` }} >
     <div className="reveal container">
       <a href="#"> 
         <h3 className="footer__logo" width='100px' height="100px">Sinister Souls</h3>

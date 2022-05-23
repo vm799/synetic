@@ -10,9 +10,6 @@ export default function Hero(){
       return() => window.removeEventListener("scroll", handleScroll);
     },[]);
     
-    
-    
-
     return(
         <div id="hero" 
             className="hero section-transition" 
