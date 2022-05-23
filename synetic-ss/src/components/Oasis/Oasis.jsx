@@ -15,14 +15,15 @@ export default function Oasis(){
 
     return(
 <>
-        <section className="about-oasis" id="about">
+        <section className="about-oasis" id="about"
+        style={{ transform: `translateY(${offsetY * 0.5}px)` }} >
            <h2 
            className="section__title section__title--about"
-           style={{ transform: `translateY(${offsetY * 0.5}px)` }} >The Oasis</h2>
+            >The Oasis</h2>
 
            <p 
            className="section__subtitle section__subtitle--about"
-           style={{ transform: `translateY(${offsetY * 0.5}px)` }} >Photorealistic, 
+           >Photorealistic, 
         virtual  reality. </p>
            
         <div className="about-oasis__body">
@@ -48,15 +49,15 @@ export default function Oasis(){
 <p className="highlight strong"> <span id="circle"> </span> Spawn into the open world planet and have access to a multiverse of many different planets and worlds where you can 
  fight other players for coins. </p>
  <p className=" sub-text"> Build, own and rent out your own real estate 
- style={{ transform: `translateY(${offsetY * 0.5}px)` }} </p>
+ </p>
 <p className=" sub-text">  Join virtual meetings with co-workers 
-style={{ transform: `translateY(${offsetY * 0.5}px)` }} </p>
+ </p>
 <p className=" sub-text ">Walk into a vegas style casino.
-style={{ transform: `translateY(${offsetY * 0.5}px)` }} </p>
+ </p>
 <p className="sub-text"> All from the comfort of your own home !
-style={{ transform: `translateY(${offsetY * 0.5}px)` }} </p>
+ </p>
 <p className=" sub-text">Fly a fighter-jet. 
-style={{ transform: `translateY(${offsetY * 0.5}px)` }} </p>
+ </p>
 
 </section>
 </>
