@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useEffect, useState} from "react";
 import "../Hero/Hero.css"
 
 export default function Hero(){
+
+    const [offsetY, setOffsetY]=  useState(0);
+    const handleScroll =() => setOffsetY(window.pageYOffset);
+  
+    
+    useEffect(()=>{
+    window.addEventListener("scroll", handleScroll);
+    return() => window.removeEventListener("scroll", handleScroll);
+  },[]);
+
     return(
-        <div id="hero" className="hero section-transition">
+        <div id="hero" 
+            className="hero section-transition" 
+            style={{ transform: `translateY(${offsetY * 0.5}px)` }}>
+                
             <div className="hero-text">
                 <h1>SYNETIC</h1>
                 <h3>Welcome to the future.</h3>

@@ -9,8 +9,10 @@
     background: var(--clr-dark);
     color: var(--clr-light);
     padding-bottom: 8rem;
-  
 }
+
+/* CREDIT TO: Photo by Pawel Czerwinski on Unsplash */
+
 .hero-text{
     display: flex;
     width:100%;
