@@ -12,12 +12,13 @@ export default function Roadmap(){
    
 
     return(
-        <div id="roadmap" className="roadmap_block">
+        <div id="roadmap" 
+        className="roadmap_block"
+        style={{ transform: `translateY(${offsetY * 0.5}px)` }}>
         <div className="roadmap_title">
             <h1>ROADMAP</h1></div>
         <div 
-        className="roadmap"
-        style={{ transform: `translateY(${offsetY * 0.5}px)` }} >
+        className="roadmap">
             
             <div className="roadmap_title-box">
             <div className="roadmap_number">

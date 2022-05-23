@@ -13,9 +13,10 @@ export default function Hero(){
     return(
         <div id="hero" 
             className="hero section-transition" 
+            style={{ transform: `translateY(${offsetY * 0.5}px)` }}
             >
                 
-            <div className="hero-text" style={{ transform: `translateY(${offsetY * 0.5}px)` }} >
+            <div className="hero-text">
                 <h1>SYNETIC</h1>
                 <h3>Welcome to the future.</h3>
                 
@@ -28,7 +29,7 @@ export default function Hero(){
             height="400" 
             src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZnV0dXJpc3RpYyUyMGNpdHl8ZW58MHx8MHx8" 
             alt="" 
-            style={{ transform: `translateY(${offsetY * 0.5}px)` }} />
+             />
            
             </div>
         </div>
