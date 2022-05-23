@@ -3,6 +3,8 @@
     padding: 2.5rem;
     text-align: center;
     color: white;
+    padding-bottom: 0rem;
+    margin-bottom:0rem;
   }
   .footer a {
       text-decoration: none;
