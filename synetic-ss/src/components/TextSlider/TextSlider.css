@@ -67,6 +67,6 @@ background: linear-gradient(to left, rgba(1, 35, 61, 0.368) 0%, transparent 100%
     color: var(--clr-accent);
 }
 
-.marquee-content:hover {
+/* .marquee-content:hover {
     animation-play-state: paused;
-}
+} */

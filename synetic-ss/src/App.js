@@ -55,7 +55,6 @@ function App() {
           </FocusLock>
       </div>
 
-      
          <Navbar />
          <Hero />
          <ImageSlider />
