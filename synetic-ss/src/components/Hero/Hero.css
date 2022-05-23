@@ -6,7 +6,7 @@
     align-items: center;
     padding-top: 4rem;
     margin-top: 0rem;
-    background: var(--clr-dark);
+    /* background: var(--clr-dark); */
     color: var(--clr-light);
     padding-bottom: 8rem;
 }
