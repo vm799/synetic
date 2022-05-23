@@ -21,7 +21,7 @@ import { useOnClickOutside } from './hooks/useOnClickOutside';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './global';
 import { theme } from './theme';
-
+import { useParallaxScroll }  from './hooks/useParallaxScroll'
 
 function App() {
   const { cursorChangeHandler } = useContext(MouseContext);
@@ -31,9 +31,10 @@ function App() {
 
 
 
-  useOnClickOutside(node, () => setOpen(false));
+ 
 
  
+  
 
 
   return(
@@ -47,6 +48,7 @@ function App() {
         <div
           onMouseEnter={() => cursorChangeHandler("hovered")}
           onMouseLeave={() => cursorChangeHandler("")}
+          useOnClickOutside ={ (node, () => setOpen(false))}
         >
         </div>
       </div>
