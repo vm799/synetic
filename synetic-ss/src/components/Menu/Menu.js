@@ -17,13 +17,13 @@ const Menu = ({ open, ...props }) => {
         <span aria-hidden="true"></span>
         Team
         </a>
-      <a href="#hero-text" tabIndex={tabIndex}>
+      <a href="#hero" tabIndex={tabIndex}>
         <span aria-hidden="true"></span>
-       Mint
+        Mint
         </a>
       <a href="#roadmap" tabIndex={tabIndex}>
         <span aria-hidden="true"></span>
-      Roadmap
+        Roadmap
         </a>
     </StyledMenu>
   )
