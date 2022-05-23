@@ -23,7 +23,8 @@ export default function Hero(){
             <button className="hero-btn">CONNECT WALLET</button>
             </div>
 
-            <div className="hero-image">
+            <div className="hero-image"
+            style={{ transform: `translateY(-${offsetY * 0.5}px)` }}>
             <img 
             width="600" 
             height="400" 
