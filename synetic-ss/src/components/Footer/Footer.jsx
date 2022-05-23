@@ -34,7 +34,7 @@ export default function Footer(){
       
     // </footer>
     
-    <footer className="footer"    style={{ transform: `translateY(${offsetY * 0.5}px)` }} >
+    <footer className="footer"    style={{ transform: `translateY(-${offsetY * 0.5}px)` }} >
     <div className="reveal container">
       <a href="/"> 
         <h3 className="footer__logo" width='100px' height="100px">Sinister Souls</h3>
