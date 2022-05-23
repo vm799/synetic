@@ -7,16 +7,13 @@ export default function Oasis(){
 
     return(
 <>
-        <section className="about-me" id="about">
+        <section className="about-oasis" id="about">
            <h2 className="section__title section__title--about">The Oasis</h2>
            <p className="section__subtitle section__subtitle--about">Photorealistic, 
         virtual  reality. </p>
            
-        <div className="about-me__body">
+        <div className="about-oasis__body">
            
-            {/* <div className="circle-border"> */}
-            {/* <div id="circle" > </div>
-            </div> */}
             
              <p className="highlight">  <span id="circle" className="circle-border"></span> Built on the blockchain. </p> 
             
@@ -30,7 +27,7 @@ export default function Oasis(){
         </div>
            
            <img src="https://images.unsplash.com/photo-1534445967719-8ae7b972b1a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGZ1dHVyaXN0aWMlMjBjaXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
-            alt="architecture in the game" className="about-me__img" />
+            alt="architecture in the game" className="about-oasis__img" />
 
 
 <p className="highlight strong"> <span id="circle"> </span> Spawn into the open world planet and have access to a multiverse of many different planets and worlds where you can 
