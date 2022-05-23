@@ -22,13 +22,19 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './global';
 import { theme } from './theme';
 
+
 function App() {
-  const { cursorType, cursorChangeHandler } = useContext(MouseContext);
+  const { cursorChangeHandler } = useContext(MouseContext);
   const [open, setOpen] = useState(false);
   const node = useRef();
   const menuId = "main-menu";
 
+
+
   useOnClickOutside(node, () => setOpen(false));
+
+ 
+
 
   return(
   

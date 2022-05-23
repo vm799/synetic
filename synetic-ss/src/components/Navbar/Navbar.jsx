@@ -33,7 +33,7 @@ const [open, setOpen] = useState(false);
             <nav className="nav">
             <div className="nav__list">
                <ul> <li className="nav__links nav-item"><Link to="About" smooth={true} duration={3000} className="nav__link">About</Link></li>
-                    <li className="nav__links nav-item"><Link to="Mint" smooth={true} duration={3000} className="nav__link">Mint</Link></li>
+                    <li className="nav__links nav-item"><Link to="hero" smooth={true} duration={3000} className="nav__link">Mint</Link></li>
                     <li className="nav__links nav-item"><Link to="Staking" smooth={true} duration={3000} className="nav__link">Staking</Link></li>
                     <li className="nav__links nav-item"><Link to="Roadmap" smooth={true} duration={3000} className="nav__link">Roadmap</Link></li>
        

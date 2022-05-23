@@ -7,6 +7,8 @@
   cursor: none;
 }
 
+
+
 :root{
   --ff-primary: 'Audiowide';
   --ff-secondary: 'DM Mono', monospace;
@@ -74,7 +76,11 @@ body {
   font-family:var(--ff-tertiary);
   background-color: var(--clr-dark);
 }
-  
+
+body{
+  background-image: url("../../images/page-background.png");
+}
+/* CREDIT TO: Photo by Pawel Czerwinski on Unsplash */
 
 @keyframes wipe-enter {
 	0% {
