@@ -28,11 +28,14 @@ export default function About(){
             <p>Live a second digital reality where nothing is off limits. </p>
             <p> Use your Sinister Soul NFTs as playable characters</p>
             <p>EXPLORE. BUILD. OWN. EVOLVE.</p>
+            </div>
             <br />
+
+            <div className="about_body-text about_body-text_highlight">
             <p>Live a second digital reality where nothing is off limits. </p>
             <p> Use your Sinister Soul NFTs as playable characters</p>
             <p>EXPLORE. BUILD. OWN. EVOLVE.</p>
-            
+            </div>
        
         <button className="about-btn">CONNECT WALLET</button>
         </div>
@@ -40,7 +43,6 @@ export default function About(){
 
         
         
-    </div>
 
     )
 }

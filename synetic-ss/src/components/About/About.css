@@ -29,7 +29,6 @@
     display: flex;
     width:100%;
     flex-direction: column;
-    display: flex;
     color: white;
     padding: 1rem;
     margin-top:2rem;
@@ -76,11 +75,29 @@
     font-size: 3em;
     
  }
+
+ @media(max-width:600px){
+ .about_body-text{
+   border: 0.5px solid var(--clr-accent);
+   padding: 1em;
+   margin-top: 2.5rem;
+}
+ }
+
  @media(min-width:800px){
     .about-image h1 {
        font-size: 4em;
 
     }
+
+    .about-main{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+
+   
  }
  
  
