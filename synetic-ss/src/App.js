@@ -34,7 +34,7 @@ function App() {
   useOnClickOutside(node, () => setOpen(false));
 
   return(
-  
+  <div className="app">
     <ThemeProvider theme={ theme }>
      <>
       <GlobalStyles />
@@ -71,6 +71,7 @@ function App() {
 
          </>
     </ThemeProvider>
+    </div>
          );
 }
 
