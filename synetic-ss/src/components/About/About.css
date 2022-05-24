@@ -17,12 +17,13 @@
     width:100%;
     display: flex;
     flex-direction: column;
- background-attachment: fixed;
+
     
  }
  
  .about-image img{
     object-fit:cover;
+    background-attachment: fixed;
  }
  
  .about-text{
