@@ -13,10 +13,11 @@ export default function Hero(){
     return(
         <div id="hero" 
             className="hero section-transition" 
-            style={{ transform: `translateY(-${offsetY * 0.5}px)` }}
+            
             >
                 
-            <div className="hero-text">
+            <div className="hero-text" 
+            style={{ transform: `translateY(-${offsetY * 0.8}px)` }}>
                 <h1>SYNETIC</h1>
                 <h3>Welcome to the future.</h3>
                 
