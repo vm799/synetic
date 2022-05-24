@@ -61,6 +61,8 @@ background: linear-gradient(to left, rgba(1, 35, 61, 0.368) 0%, transparent 100%
     color: var(--clr-dark);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--clr-accent);
+    margin-bottom: 8rem;
+    margin-top: 8rem;
 }
 
 .marquee-content span {
