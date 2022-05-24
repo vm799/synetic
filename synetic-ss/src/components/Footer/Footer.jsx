@@ -42,12 +42,6 @@ export default function Footer(){
     </a>
 
       <div className="footer__social">
-        {/* <a href="#">
-            <i class="fa 
-            fa-facebook" alt="facebook"></i>
-        </a>
-
-        <a href="#" class="fa fa-pinterest" alt="pinterest" ></a> */}
 
         <a href="#">
            <i className="fab fa-brands fa-discord" 
