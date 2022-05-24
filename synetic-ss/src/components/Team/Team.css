@@ -25,6 +25,7 @@
   display: flex;
   flex-direction: column;
   max-width: 800px;
+  margin-top: 5rem;
 }
 
 .text-body h2 {
@@ -58,13 +59,17 @@
   .straplines p{
     font-size: 2rem;
     font-weight: 900;
-    margin-top: 0;
+ 
     padding:0;
   }
 
-  /* .text-body h2{
+  .straplines{
+margin-bottom: 6rem;
+  }
 
-  } */
+  .text-body h1{
+    margin-top: 6em;
+  }
 
 }
 
