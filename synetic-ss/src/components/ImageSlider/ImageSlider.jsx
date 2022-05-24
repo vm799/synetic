@@ -13,7 +13,7 @@ export default function ImageSlider(){
     },[]);
     return(
 <div className="image-slider"
-style={{ transform: `skewY(-${offsetY * 0.8}px)` }}>
+style={{ transform: `translateY(-${offsetY * 0.8}px)` }}>
     <div className="marquee_image">
   <div className="marquee_image-content">
   <img src= { NFTimage } alt="new-synetic_souls nft"></img>

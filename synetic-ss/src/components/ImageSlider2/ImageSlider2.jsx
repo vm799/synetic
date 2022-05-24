@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect} from "react";
 import "../ImageSlider2/ImageSlider2.css";
 import NFTimage from "../../images/10.png"
 
