@@ -149,6 +149,7 @@ img {
             z-index: 2;
             height: 300px;
             box-shadow: var(--bs);
+           
         }
 
         .about-oasis__body p{
