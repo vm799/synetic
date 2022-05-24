@@ -115,7 +115,7 @@ background: radial-gradient(circle, rgba(0,153,202,1) 0%, rgba(233,0,179,1) 100%
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-top: 12em;
+ 
   }
 
 
@@ -126,7 +126,7 @@ background: radial-gradient(circle, rgba(0,153,202,1) 0%, rgba(233,0,179,1) 100%
     flex-direction: column;
     align-items:center;
     justify-content:center;
-    margin-top: 14rem;
+    margin-top: 18em;
     padding:1rem;
   }
     
@@ -134,7 +134,7 @@ background: radial-gradient(circle, rgba(0,153,202,1) 0%, rgba(233,0,179,1) 100%
 .hero-image{
     width: 70%;
     height: 120vh;
-   margin-top:12rem;
+   margin-top:16em;
 }
 
 p{
