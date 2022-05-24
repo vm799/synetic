@@ -12,6 +12,7 @@
   margin-bottom: 3em;
 	letter-spacing: 2px;
 	color:#ffffff;
+    margin-top: 8em;
 }
 .roadmap{
     border: 1px solid hotpink;
@@ -23,6 +24,7 @@ max-width: 600px;
 background-color: rgba(255, 174, 214, 0.042);
 margin: 2rem;
 animation: wipe-enter 5s 1;
+
 }
 
 .roadmap_title-box{
