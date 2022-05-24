@@ -66,15 +66,15 @@ export default function Footer(){
       </div>
     
       <div className="footer__links col1">
-        <a href="#">About Us</a>
-        <a href="#">Contact</a>
-        <a href="#">Blog</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+        <a href="/">Blog</a>
       </div>
 
       <div className="footer__links col2">
-        <a href="#">Careers</a>
-        <a href="#">Support</a>
-        <a href="#">Privacy Policy</a>
+        <a href="/">Careers</a>
+        <a href="/">Support</a>
+        <a href="/">Privacy Policy</a>
       </div>
 
       {/* <div class="footer__cta">
