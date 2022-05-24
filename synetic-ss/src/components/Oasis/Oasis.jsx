@@ -42,7 +42,9 @@ export default function Oasis(){
            
            <img src="https://images.unsplash.com/photo-1534445967719-8ae7b972b1a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGZ1dHVyaXN0aWMlMjBjaXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
             alt="architecture in the game" 
-            className="about-oasis__img" />
+            className="about-oasis__img" 
+            style={{ transform: `translateY(-${offsetY * 0.8}px)` }} 
+            />
 
 
 <p className="highlight strong"> <span id="circle"> </span> Spawn into the open world planet and have access to a multiverse of many different planets and worlds where you can 
