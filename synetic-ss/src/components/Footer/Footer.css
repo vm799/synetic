@@ -5,7 +5,9 @@
     color: white;
     padding-bottom: 1rem;
     margin-bottom:1rem;
+  
   }
+
   .footer a {
       text-decoration: none;
       margin:0;
@@ -156,6 +158,8 @@
     color: #b0c4de;
     margin-top: 4rem;
   }
+
+
   @media (min-width: 64em) {
     .footer__copyright {
       grid-area: copyright;
