@@ -23,7 +23,7 @@
  
  .about-image img{
     object-fit:cover;
-    background-attachment: fixed;
+    background: fixed;
  }
  
  .about-text{
