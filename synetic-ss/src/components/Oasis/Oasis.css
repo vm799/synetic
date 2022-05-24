@@ -114,6 +114,7 @@ img {
     
     .about-oasis__img {
         box-shadow: var(--bs);
+        margin-top: 10rem;
     }
     
 
