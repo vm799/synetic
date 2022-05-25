@@ -19,6 +19,9 @@
       
   }
 
+  .footer-img{
+  padding-bottom: 4rem;
+  }
 
   @media (min-width: 64em) {
     .footer .container {
