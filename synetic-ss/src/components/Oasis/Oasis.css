@@ -6,6 +6,7 @@ section {
     padding-left: 1em;
     padding-right: 1em;
     color:white;
+   
 }
 
 #circle{
@@ -50,6 +51,7 @@ img {
     margin-bottom: 3.25em;
     font-family: var(--ff-primary);
    text-shadow: var(--bs);
+   margin-top: 8rem;
 }
 
 .section__title--intro {
@@ -77,6 +79,7 @@ img {
 .about-oasis {
     /* max-width: 1000px; */
     margin: 0 auto;
+   
 }
 
 /* .about-oasis__img {
