@@ -19,6 +19,7 @@ cursor:pointer;
 width:100%;
 
 
+
 a {
   font-size: 2rem;
   text-transform: uppercase;
@@ -44,5 +45,13 @@ padding: 1.5rem;
   &:hover {
     color: white;
   }
+}
+
+ .fab{
+  border: 1px solid white;
+  padding: 0.5em;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 `;
