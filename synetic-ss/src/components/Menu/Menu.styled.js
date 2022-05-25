@@ -3,14 +3,14 @@ import styled from 'styled-components';
 
 
 export const StyledMenu = styled.nav`
-top:5%;
+top:10%;
 display: flex;
 flex-direction: column;
 justify-content: center;
 background: rgb(0,0,0);
 background: rgb(84,2,68);
 background: rgb(84,2,68);
-background: linear-gradient(0deg, rgba(84,2,68,0.6221498371335505) 0%, rgba(22,21,21,1) 64%);text-align: center;
+background: linear-gradient(0deg, rgba(51,5,41,1) 0%, rgba(22,21,21,0.45) 64%);text-align: center;
 padding: 1.5rem;
 position: absolute;
 transition: transform 0.7s ease-in-out;
