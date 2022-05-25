@@ -4,26 +4,29 @@ import "../Footer/Footer.css"
 
 export default function Footer(){
   
-  // const [offsetY, setOffsetY]=  useState(0);
-  //   const handleScroll =() => setOffsetY(window.pageYOffset);
+  const [offsetY, setOffsetY]=  useState(0);
+    const handleScroll =() => setOffsetY(window.pageYOffset);
     
-  //     useEffect(()=>{
-  //     window.addEventListener("scroll", handleScroll);
-  //     return() => window.removeEventListener("scroll", handleScroll);
-  //   },[]);
-  //   style={{ transform: `translateY(${offsetY * 1}px)` }}
+      useEffect(()=>{
+      window.addEventListener("scroll", handleScroll);
+      return() => window.removeEventListener("scroll", handleScroll);
+    },[]);
+
 
     return (
  
     
-    <footer className="footer"    
+    <footer className="footer"  
+    style={{ transform: `translateY(-${offsetY * 0.5}px)` }} 
    >
-     <div className="footer-img" 
+     {/* <div className="footer-img" 
     >
-<img src="https://images.unsplash.com/photo-1536768139911-e290a59011e4?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZ1dHVyaXN0aWMlMjBjaXR5fGVufDB8fDB8fA%3D%3D&auto=format" alt=""
-></img>
-</div>
-    <div className="reveal container">
+{/* <img src="https://images.unsplash.com/photo-1536768139911-e290a59011e4?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZ1dHVyaXN0aWMlMjBjaXR5fGVufDB8fDB8fA%3D%3D&auto=format" alt=""
+></img> */}
+{/* </div> */}
+
+    <div className="reveal container"
+    >
       <a href="/"> 
         <h3 className="footer__logo" width='100px' height="100px">Sinister Souls</h3>
         
