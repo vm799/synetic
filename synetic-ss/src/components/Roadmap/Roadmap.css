@@ -38,7 +38,7 @@ animation: wipe-enter 5s 1;
 .roadmap_main-box{
     display:flex;
     flex-direction: row; 
-    padding: 1rem;
+    padding: 3rem;
 }
 
 .roadmap_number{
@@ -115,4 +115,5 @@ font-family: var(--ff-tertiary);
     left: 50%;
     top: -10%;
     position: absolute;
+    
 }
