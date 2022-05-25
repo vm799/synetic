@@ -14,21 +14,10 @@ const [open, setOpen] = useState(false);
             <div className="logo"> 
             <Link to="/" smooth={true} duration={3000} onClick ={ () => 
                 animateScroll.scrollToTop()}> SYNETIC  </Link>  
-            {/* <ul id="navlist_links">
-                    <li className="navlink"><a href="#About" >About</a></li>
-                    <li className="navlink"><a href="#Mint"  >Mint</a></li>
-                    <li className="navlink"><a href="#Staking">Staking</a></li>
-                    <li className="navlink"><a href="#Roadmap">Roadmap</a></li>          
-            </ul> */}
             </div>
+            
            <Burger open={open} setOpen={setOpen} />
            <Menu open={open} setOpen={setOpen} />
-{/*        
-            <button onClick={ toggleHamburger } className="nav-toggle" aria-label="toggle navigation">
-                <span className="hamburger"></span>
-            </button> */}
-          
-        {/* </div> */}
 
             <nav className="nav">
             <div className="nav__list">
