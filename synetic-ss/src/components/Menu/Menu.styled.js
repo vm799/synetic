@@ -48,10 +48,7 @@ padding: 1.5rem;
 }
 
  .fab{
-  border: 1px solid white;
-  padding: 0.5em;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  text-shadow: var(--bs-dark)
+  
 }
 `;
