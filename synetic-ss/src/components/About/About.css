@@ -23,7 +23,6 @@ margin-bottom: 3rem;
  
  .about-image img{
     object-fit:cover;
-    background: fixed;
  }
  
  .about-text{
