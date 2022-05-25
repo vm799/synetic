@@ -25,6 +25,23 @@ const Menu = ({ open, ...props }) => {
         <span aria-hidden="true"></span>
         Roadmap
         </a>
+
+        <div className="social-list">
+        <a href="https://twitter.com/_sinister_souls" tabIndex={tabIndex}>
+        <span aria-hidden="true"></span>
+        <i className="fab fa-discord"></i>
+        </a>
+        <a href="https://twitter.com/_sinister_souls" tabIndex={tabIndex}>
+        <span aria-hidden="true"></span>
+        <i className="fab fa-medium"></i>
+        </a> <a href="https://twitter.com/_sinister_souls" tabIndex={tabIndex}>
+        <span aria-hidden="true"></span>
+        <i className="fab fa-twitter"></i>
+        </a>
+
+        </div>
+                    
+       
     </StyledMenu>
   )
 }
