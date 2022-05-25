@@ -10,7 +10,7 @@ export const GlobalStyles = createGlobalStyle`
   cursor: none;
 }
 
-* { border: 1px solid red; }
+body { border: 1px solid red; }
 
 :root{
   --ff-primary: 'Audiowide';
