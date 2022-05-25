@@ -32,6 +32,10 @@ export const GlobalStyles = createGlobalStyle`
   
   --bs: 0.25em 0.25em 1.75em white,
         0.125em 0.125em 1.25em #E900B3;
+
+  
+        --bs-dark: 0.25em 0.25em 1.75em black,
+     
 }
 
 
