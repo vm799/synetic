@@ -5,8 +5,8 @@
     display:flex;
     justify-content:center;
     align-items: center;
-    padding-top: 6rem;
-    padding-bottom: 8rem;
+    /* padding-top: 6rem;
+    padding-bottom: 8rem; */
 }
 
 .marquee{
