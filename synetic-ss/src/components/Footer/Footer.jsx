@@ -4,35 +4,17 @@ import "../Footer/Footer.css"
 
 export default function Footer(){
   
-  const [offsetY, setOffsetY]=  useState(0);
-    const handleScroll =() => setOffsetY(window.pageYOffset);
+  // const [offsetY, setOffsetY]=  useState(0);
+  //   const handleScroll =() => setOffsetY(window.pageYOffset);
     
-      useEffect(()=>{
-      window.addEventListener("scroll", handleScroll);
-      return() => window.removeEventListener("scroll", handleScroll);
-    },[]);
- 
+  //     useEffect(()=>{
+  //     window.addEventListener("scroll", handleScroll);
+  //     return() => window.removeEventListener("scroll", handleScroll);
+  //   },[]);
+  //   style={{ transform: `translateY(-${offsetY * 0.8}px)` }}
 
     return (
-    // <footer class="footer">
-    //     <a href="sinistersouls2922@gmail.com" class="footer__link">sinistersouls2922@gmail.com</a>
-    //     <ul class="social-list">
-    //         <li class="social-list__item">
-    //             <a class="social-list__link" href="https://twitter.com/_sinister_souls">
-    //                 <i class="fab fa-github"></i>
-    //             </a></li>
-    //             <li class="social-list__item">
-    //                 <a class="social-list__link" href="https://twitter.com/_sinister_souls">
-    //                     <i class="fab fa-linkedin"></i>
-    //                 </a></li>
-    //                 <li class="social-list__item">
-    //                     <a class="social-list__link" href="https://twitter.com/_sinister_souls">
-    //                         <i class="fab fa-instagram"></i>
-    //                     </a></li>
-                       
-    //     </ul>
-      
-    // </footer>
+ 
     
     <footer className="footer"    
    >
@@ -44,14 +26,14 @@ export default function Footer(){
 
       <div className="footer__social">
 
-        <a href="#">
+        <a href="/">
            <i className="fab fa-brands fa-discord" 
            alt="discord">
             
              </i>JOIN US
         </a>
         
-        <a href="#">
+        <a href="/">
           <i className="fab 
           fa-brands fa-twitter" 
           alt="twitter">
@@ -83,7 +65,7 @@ export default function Footer(){
         &copy; Sinister Souls. All Rights Reserved.
       </div>
     <div className="attribution">
-      <a href="#">Coded by PinkPistachioButterfly</a>.
+      <a href="/">Coded by PinkPistachioButterfly</a>.
       
     </div>
   </footer>)

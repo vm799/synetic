@@ -9,9 +9,7 @@ export const GlobalStyles = createGlobalStyle`
   box-sizing: border-box;
   cursor: none;
 }
-html { height: 100% }
 
-body { min-height: 100% }
 
 
 :root{
@@ -88,7 +86,9 @@ strong { font-weight: var(--fw-bold) }
  
 
 
+// html { height: 100% }
 
+// body { min-height: 100% }.
 
 // html, body {
 //     margin: 0;
