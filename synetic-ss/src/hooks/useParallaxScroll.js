@@ -11,6 +11,7 @@ const handleScroll =() => setOffsetY(window.pageYOffset);
   window.addEventListener("scroll", handleScroll);
   return() => window.removeEventListener("scroll", handleScroll);
 },[]);
-
-style={{ transform: `translateY(${offsetY * 0.5}px)` }} 
 }
+
+// style={{ transform: `translateY(${offsetY * 0.5}px)` }} 
+// }

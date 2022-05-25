@@ -10,7 +10,7 @@ export const GlobalStyles = createGlobalStyle`
   cursor: none;
 }
 
-body { border: 1px solid red; }
+
 
 :root{
   --ff-primary: 'Audiowide';
@@ -42,22 +42,22 @@ body { border: 1px solid red; }
         --fs-body: 1.125rem;
        
   }
+ 
   body {
     margin: 0;
     padding:0;
     font-family:var(--ff-tertiary);
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
     url("https://images.unsplash.com/photo-1639353014154-8b9da8815d84?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587");
-  
+  width:100%;
   }
-
 
 
 
 
 img {
     display: block;
-    max-width: 100%;
+
    
 }
 
