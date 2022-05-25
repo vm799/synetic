@@ -15,7 +15,7 @@ export default function About(){
     return(
         <div id="about-main" 
         className="about"
-        style={{ transform: `translateY(-${offsetY * 0.5}px)` }}
+       
         >
      
         <div className="about-image" >

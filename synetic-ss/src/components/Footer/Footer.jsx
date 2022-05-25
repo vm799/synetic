@@ -17,7 +17,7 @@ export default function Footer(){
  
     
     <footer className="footer"  
-    style={{ transform: `translateY(-${offsetY * 0.5}px)` }} 
+   
    >
      {/* <div className="footer-img" 
     >

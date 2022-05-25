@@ -14,7 +14,7 @@ export default function TextSlider(){
     return(
 <div 
 className="text-slider"
-style={{ transform: `translateY(-${offsetY * 0.5}px)` }} >
+ >
     <div className="marquee">
   <ul className="marquee-content">
    <li>SYNETIC   </li>

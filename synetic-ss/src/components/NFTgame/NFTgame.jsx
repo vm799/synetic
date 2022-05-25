@@ -14,7 +14,7 @@ export default function NFTgame (){
 
     return(
         <div id="main"
-        style={{ transform: `translateY(-${offsetY * 0.5}px)` }} >
+       >
           
             <div className="NFTgame-heading">
                <h2>NFT GAMING</h2>

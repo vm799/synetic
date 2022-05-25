@@ -12,7 +12,7 @@ export default function ImageSlider2() {
     },[]);
     return(
 <div className="image-slider2"
-style={{ transform: `translateY(-${offsetY * 0.8}px)` }}>
+>
     <div className="marquee_image2">
   <div className="marquee_image2-content">
   <img src= { NFTimage } alt="new-synetic_souls nft"></img>

@@ -14,7 +14,7 @@ export default function Roadmap(){
     return(
         <div id="roadmap" 
         className="roadmap_block"
-        style={{ transform: `translateY(-${offsetY * 0.5}px)` }}>
+      >
         <div className="roadmap_title">
             <h1>ROADMAP</h1></div>
         <div 

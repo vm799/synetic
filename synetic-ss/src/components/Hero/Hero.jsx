@@ -2,13 +2,14 @@ import React, { useEffect, useState} from "react";
 import "../Hero/Hero.css"
 
 export default function Hero(){
-    const [offsetY, setOffsetY]=  useState(0);
-    const handleScroll =() => setOffsetY(window.pageYOffset);
+    // const [offsetY, setOffsetY]=  useState(0);
+    // const handleScroll =() => setOffsetY(window.pageYOffset);
     
-      useEffect(()=>{
-      window.addEventListener("scroll", handleScroll);
-      return() => window.removeEventListener("scroll", handleScroll);
-    },[]);
+    //   useEffect(()=>{
+    //   window.addEventListener("scroll", handleScroll);
+    //   return() => window.removeEventListener("scroll", handleScroll);
+    // },[]);
+    // style={{ transform: `translateY(-${offsetY * 0.8}px)` }}
     
     return(
         <div id="hero" 
@@ -17,7 +18,7 @@ export default function Hero(){
             >
                 
             <div className="hero-text" 
-            style={{ transform: `translateY(-${offsetY * 0.8}px)` }}>
+            >
                 <h1>SYNETIC</h1>
                 <h3>Welcome to the future.</h3>
                 

@@ -13,7 +13,7 @@ export default function Team(){
     
     return(
         <div id="team"
-        style={{ transform: `translateY(-${offsetY * 0.5}px)` }}>
+        >
             <div className="text-body">
             <h1>Meet The Team</h1>
             {/* <h2>Created by 2 friends with common vision of disrupting reality.</h2>

@@ -16,7 +16,7 @@ export default function Oasis(){
     return(
 <>
         <section className="about-oasis" id="about"
-        style={{ transform: `translateY(-${offsetY * 0.5}px)` }} >
+        >
            <h2 
            className="section__title section__title--about"
             >The Oasis</h2>

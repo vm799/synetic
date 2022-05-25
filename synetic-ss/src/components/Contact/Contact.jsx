@@ -15,7 +15,7 @@ export default function Contact (){
     return(
         <div 
         id="contact"
-        style={{ transform: `translateY(-${offsetY * 0.5}px)` }} 
+       
         >
             <h1>CONTACT US</h1>
             <form>
