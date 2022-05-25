@@ -3,7 +3,7 @@
    
     text-align: center;
     color: white;
-    padding-bottom: 1rem;
+    padding-top: 8rem;
     margin-bottom:1rem;
     overflow: hidden;
   
@@ -18,9 +18,9 @@
       
   }
 
-  .footer-img{
-  padding-bottom: 4rem;
-  }
+  /* .footer-img{
+  padding-bottom: 4rem; */
+  
 
   @media (min-width: 64em) {
     .footer .container {
