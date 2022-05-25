@@ -3,19 +3,19 @@ import "../Contact/Contact.css"
 
 export default function Contact (){
 
-    const [offsetY, setOffsetY]=  useState(0);
-    const handleScroll =() => setOffsetY(window.pageYOffset);
+    // const [offsetY, setOffsetY]=  useState(0);
+    // const handleScroll =() => setOffsetY(window.pageYOffset);
     
-      useEffect(()=>{
-      window.addEventListener("scroll", handleScroll);
-      return() => window.removeEventListener("scroll", handleScroll);
-    },[]);
-    
+    //   useEffect(()=>{
+    //   window.addEventListener("scroll", handleScroll);
+    //   return() => window.removeEventListener("scroll", handleScroll);
+    // },[]);
+    // style={{ transform: `translateY(-${offsetY * 0.5}px)` }} 
 
     return(
         <div 
         id="contact"
-        style={{ transform: `translateY(-${offsetY * 0.5}px)` }} >
+        >
             <h1>CONTACT US</h1>
             <form>
                 <input type="text"
