@@ -6,7 +6,6 @@
       flex-direction: column;
       /* background-color: var(--clr-dark); */
       margin-top: 8rem;
-      margin-bottom: 8rem;
      
   }
   
@@ -21,7 +20,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
     background-color: transparent;
   }
   
@@ -63,6 +61,5 @@
     background-color: var(--clr-dark);
     color: var(--clr-accent_second);
     border: 2px solid var(--clr-accent_second);
-    
     box-shadow: 5px 5px 10px var(--clr-accent_second);
   }
