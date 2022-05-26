@@ -6,7 +6,7 @@
     padding-top: 8rem;
     margin-bottom:1rem;
     overflow: hidden;
-  
+    margin-top: 8rem;
   }
 
   .footer a {
@@ -15,7 +15,7 @@
       padding:0;
       color: white;
       font-size: 2rem;
-      
+     
   }
 
   /* .footer-img{
@@ -125,6 +125,7 @@
       align-items: center;
       font-size: 1.25rem;
       font-family: var(--ff-secondary);
+      
     }
   
   .footer__links a:hover {
