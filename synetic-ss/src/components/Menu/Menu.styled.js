@@ -42,7 +42,7 @@ padding: 1.5rem;
     text-align: center;
   }
 
-  &:hover {
+  a:hover {
     color: white;
   }
 }
