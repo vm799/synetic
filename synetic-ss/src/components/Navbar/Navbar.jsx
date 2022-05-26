@@ -15,11 +15,11 @@ const [open, setOpen] = useState(false);
             <Link to="/" smooth={true} duration={3000} onClick ={ () => 
                 animateScroll.scrollToTop()}> SYNETIC  </Link>  
             </div>
-            
+
            <Burger open={open} setOpen={setOpen} />
            <Menu open={open} setOpen={setOpen} />
 
-            <nav className="nav">
+            {/* <nav className="nav">
             <div className="nav__list">
                <ul> <li className="nav__links nav-item"><Link to="About" smooth={true} duration={3000} className="nav__link">About</Link></li>
                     <li className="nav__links nav-item"><Link to="hero" smooth={true} duration={3000} className="nav__link">Mint</Link></li>
@@ -46,7 +46,7 @@ const [open, setOpen] = useState(false);
 
     
             
-            </nav>
+            </nav> */}
         </header>
        
     )}
