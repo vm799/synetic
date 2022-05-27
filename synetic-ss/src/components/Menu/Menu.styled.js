@@ -4,7 +4,6 @@ import styled from 'styled-components';
 
 export const StyledMenu = styled.nav`
 top:10%;
-border: 5px solid tomato;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -19,9 +18,8 @@ transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
 cursor:pointer;
 width:100%;
 
-
-
 a {
+
   font-size: 2rem;
   text-transform: uppercase;
 padding: 1.5rem;
@@ -42,10 +40,6 @@ padding: 1.5rem;
     font-size: 1.5rem;
     text-align: center;
   }
-
-  a:hover {
-    color: white;
-  }
 }
 
  .fab{
@@ -53,3 +47,5 @@ padding: 1.5rem;
   
 }
 `;
+
+
