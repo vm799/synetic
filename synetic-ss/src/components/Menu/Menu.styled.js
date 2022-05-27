@@ -48,7 +48,7 @@ padding: 1.5rem;
 }
 
  .fab{
-  text-shadow: var(--bs-dark)
+  text-shadow: var(--bs-dark);
   
 }
 `;
