@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 export const StyledMenu = styled.nav`
 top:10%;
+border: 5px solid tomato;
 display: flex;
 flex-direction: column;
 justify-content: center;
