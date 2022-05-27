@@ -8,7 +8,7 @@ flex-direction: column;
 justify-content: space-around;
 width: 2rem;
 height: 2rem;
-background: transparent;
+background: black;
 border: none;
 cursor: pointer;
 padding: 0;
@@ -17,7 +17,13 @@ z-index: 10;
 
 
 span {
-  
+  width: 2rem;
+  height: 0.25rem;
+  background: radial-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%);
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
 
   :first-child {
     transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
@@ -33,8 +39,6 @@ span {
   }
 }
 `;
-
-
 
 
 /* 
