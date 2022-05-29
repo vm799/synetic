@@ -187,13 +187,19 @@
   .about-text .about_body-text{
     line-height: 0.75rem;
     letter-spacing: 0.05rem;
-
     display: flex;
     flex-direction: column;
- padding-top: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 .about-btn{
     margin-top: 4rem;
+}
+
+.about_body-text {
+   border: 5px solid tomato;
+   margin-top: 0;
+   padding-top: 0;
+  
 }
  } 
