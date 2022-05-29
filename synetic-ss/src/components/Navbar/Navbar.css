@@ -4,11 +4,11 @@ header {
     flex-direction: row;
     padding: 1em;
     align-items: center;
-    background-color: black;
+    background-color: rgb(2, 2, 2);
     width:100%;
     position: fixed;
     z-index: 1000;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16)
+    box-shadow: 0 5px 5px 1px rgb(233, 0, 194, 0.16);
 }
 
 
