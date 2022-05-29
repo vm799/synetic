@@ -58,11 +58,11 @@ function App() {
          <Hero />
          <ImageSlider />
          <ImageSlider2 />
+         <About />
          <Oasis />
          <Team />
          <TextSlider />
          <NFTgame />
-         <About />
          <Roadmap />
          <Contact />
          <Footer /> 

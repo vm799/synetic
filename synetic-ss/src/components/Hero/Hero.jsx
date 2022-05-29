@@ -1,5 +1,7 @@
 import React, { useEffect, useState} from "react";
 import "../Hero/Hero.css"
+import {  animated, useSpring } from 'react-spring';
+
 
 export default function Hero(){
     // const [offsetY, setOffsetY]=  useState(0);
@@ -12,6 +14,8 @@ export default function Hero(){
     // style={{ transform: `translateY(-${offsetY * 0.8}px)` }}
     
     return(
+       
+             
         <div id="hero" 
             className="hero section-transition" 
             
@@ -36,6 +40,6 @@ export default function Hero(){
            
             </div>
         </div>
-      
+       
     )
 }
