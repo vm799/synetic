@@ -161,7 +161,7 @@
   
   .about-text .text-highlight{
       padding-top:2rem;
-      border: 5px solid tomato;
+      
   }
 
 
@@ -178,26 +178,26 @@
  
   .about-text{
     display: flex;
-    margin-top: 3.5rem;
+    margin-top: 8.5rem;
     flex-direction: column;
- 
-    justify-self: flex-start;
+ justify-content: center;
+ align-items: center;
   }
     
   .about-text .about_body-text{
     line-height: 0.75rem;
-    letter-spacing: 0.05rem;
+
     display: flex;
     flex-direction: column;
-    padding-top: 1.5rem;
+  
 }
 
 .about-btn{
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .about_body-text {
-   border: 5px solid tomato;
+  
    margin-top: 0;
    padding-top: 0;
   
