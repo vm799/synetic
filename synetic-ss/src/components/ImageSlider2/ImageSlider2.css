@@ -79,8 +79,8 @@ transparent 100%);
 } */
 
 .marquee_image2-content img{
-    height: 60%;
-    width: 25rem;
+    height: 50%;
+    width: 15rem;
     object-fit:cover;
     padding:1rem;
 }

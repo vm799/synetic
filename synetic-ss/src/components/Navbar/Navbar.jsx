@@ -15,22 +15,21 @@ const [open, setOpen] = useState(false);
             <Link to="/" smooth={true} duration={3000} onClick ={ () => 
                 animateScroll.scrollToTop()}> SYNETIC  </Link>  
             </div>
-
-           <Burger open={open} setOpen={setOpen} />
-           <Menu open={open} setOpen={setOpen} />
-
-            {/* <nav className="nav">
+            <div className="header-list">
+            
             <div className="nav__list">
-               <ul> <li className="nav__links nav-item"><Link to="About" smooth={true} duration={3000} className="nav__link">About</Link></li>
-                    <li className="nav__links nav-item"><Link to="hero" smooth={true} duration={3000} className="nav__link">Mint</Link></li>
-                    <li className="nav__links nav-item"><Link to="Staking" smooth={true} duration={3000} className="nav__link">Staking</Link></li>
-                    <li className="nav__links nav-item"><Link to="Roadmap" smooth={true} duration={3000} className="nav__link">Roadmap</Link></li>
-       
+               <ul> <li className="nav__link">
+                   <Link to="About" smooth={true} duration={3000}>About</Link></li>
+                    <li className="nav__link">
+                        <Link to="hero" smooth={true} duration={3000} >Mint</Link></li>
+                    <li className="nav__link">
+                        <Link to="Staking" smooth={true} duration={3000}>Staking</Link></li>
+                    <li className="nav__link">
+                        <Link to="Roadmap" smooth={true} duration={3000}>Roadmap</Link></li>
                </ul>
             </div>
 
-        <div className="social-list">
-               
+            <div className="social-list">
                         <Link className="social-list__link" to="https://twitter.com/_sinister_souls">
                          <i className="fab fa-discord"></i>
                          </Link>
@@ -43,10 +42,14 @@ const [open, setOpen] = useState(false);
                          <i className="fab fa-twitter"></i>
                         </Link>
         </div>
+            </div>
+        
+<div className="burger">
+           <Burger open={open} setOpen={setOpen} />
+           <Menu open={open} setOpen={setOpen} />
 
-    
-            
-            </nav> */}
+           
+ </div>
         </header>
        
     )}

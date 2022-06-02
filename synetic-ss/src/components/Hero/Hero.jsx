@@ -4,32 +4,44 @@ import {  animated, useSpring } from 'react-spring';
 
 
 export default function Hero(){
-    // const [offsetY, setOffsetY]=  useState(0);
-    // const handleScroll =() => setOffsetY(window.pageYOffset);
-    
-    //   useEffect(()=>{
-    //   window.addEventListener("scroll", handleScroll);
-    //   return() => window.removeEventListener("scroll", handleScroll);
-    // },[]);
-    // style={{ transform: `translateY(-${offsetY * 0.8}px)` }}
-    
+
+const style1 = useSpring({
+    from: {
+       opacity:0, marginTop: -100 },
+    to: {  
+        opacity:1, marginTop: 0   },
+    config: { duration:1500 }
+
+});
+
+// const style2 = useSpring({
+//     from: { marginLeft: -400 },
+//      to:  {  marginLeft: 400 },
+//       config: { duration:1500 }
+
+// });
+
+
+
     return(
-       
-             
-        <div id="hero" 
+        
+        <animated.div id="hero" 
             className="hero section-transition" 
-            
+            style={ style1 }
             >
                 
-            <div className="hero-text" 
+                <div  className="hero-text" 
+        
             >
                 <h1>SYNETIC</h1>
                 <h3>Welcome to the future.</h3>
                 
             <button className="hero-btn">CONNECT WALLET</button>
-            </div>
+        </div>
 
-            <div className="hero-image"
+            
+        <div className="hero-image"
+       
             >
             <img 
             width="600" 
@@ -39,7 +51,6 @@ export default function Hero(){
              />
            
             </div>
-        </div>
-       
+     </animated.div>
     )
 }

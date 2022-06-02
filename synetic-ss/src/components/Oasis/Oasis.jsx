@@ -29,10 +29,10 @@ export default function Oasis(){
         <div className="about-oasis__body">
            
             
-             <p className="highlight">  <span id="circle" className="circle-border"></span> Built on the blockchain. </p> 
+             <p className="highlight">  <span id="circle"> </span><span id="circle"> </span>Built on the blockchain. </p> 
             
              
-             <p className="highlight"> <span id="circle"></span>
+             <p className="highlight"> <span id="circle"> </span><span id="circle"> </span>
             Build, own and monetise your experiences
             through real-estate ownership.  </p>
             <p className="highlight-body">Become an entrepreneur, join the corporate playing field.
@@ -46,7 +46,7 @@ export default function Oasis(){
             />
 
 
-<p className="highlight strong"> <span id="circle"> </span> Spawn into the open world planet and have access to a multiverse of many different planets and worlds where you can 
+<p className="highlight strong"> <span id="circle"> </span><span id="circle"> </span>Spawn into the open world planet and have access to a multiverse of many different planets and worlds where you can 
  fight other players for coins. </p>
  <p className=" sub-text"> Build, own and rent out your own real estate 
  </p>

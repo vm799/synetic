@@ -78,8 +78,8 @@ background: linear-gradient(to left, var(--clr-dark)  0%, transparent 100%);
 } */
 
 .marquee_image-content img{
-    height: 60%;
-    width: 25rem;
+    height: 50%;
+    width: 15rem;
     object-fit:cover;
     padding:1rem;
 }
