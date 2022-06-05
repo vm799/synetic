@@ -26,6 +26,7 @@
     width: 8px;
     height: 8px;
    background: white;
+   background: linear-gradient(rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%);
     border-radius: 100%;
     transform: translate(-50%, -50%);
     z-index: 1999;
