@@ -1,6 +1,7 @@
 {
   "name": "synetic-ss",
   "version": "0.1.0",
+  "homepage": "https://vm799.github.io/synetic-ss",
   "private": true,
   "dependencies": {
     "@react-spring/parallax": "^9.4.5",
@@ -18,6 +19,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
