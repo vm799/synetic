@@ -18,7 +18,7 @@ export default function Roadmap(){
         <div className="roadmap_title">
             <h1>ROADMAP</h1></div>
         <div 
-        className="roadmap">
+        className="roadmap reveal">
             
             <div className="roadmap_title-box">
             <div className="roadmap_number">
@@ -61,7 +61,7 @@ export default function Roadmap(){
 
         <div className="line">  </div>
 
-        <div className="roadmap">
+        <div className="roadmap reveal">
             
             <div className="roadmap_title-box">
             <div className="roadmap_number">
@@ -104,7 +104,7 @@ export default function Roadmap(){
 
         <div className="line">  </div>
 
-        <div className="roadmap">
+        <div className="roadmap reveal">
             
             <div className="roadmap_title-box">
             <div className="roadmap_number">

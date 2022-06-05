@@ -89,6 +89,19 @@ strong { font-weight: var(--fw-bold) }
     animation: wipe-enter 5s 1;
   }
 }
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0.25;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
 `
 
  

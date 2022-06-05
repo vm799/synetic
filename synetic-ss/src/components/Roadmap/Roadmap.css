@@ -101,7 +101,8 @@ font-family: var(--ff-tertiary);
     display:flex;
     align-items: center;
     justify-content: center;
-    color:var(--clr-accent);
+    /* color:var(--clr-accent); */
+    background-color:  linear-gradient(90deg, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%);
     font-family: var(--ff-primary);
     position: relative;
 }
@@ -117,3 +118,27 @@ font-family: var(--ff-tertiary);
     position: absolute;
     
 }
+
+/* @supports (animation-timeline: works){
+
+    .roadmap {
+      animation: 1s linear forwards flip-card;
+      animation-duration: 1.7s;
+      transform-style:preserve-3d;
+      
+    }
+  
+  
+  
+    @keyframes flip-card {
+      from { 
+        opacity:0;
+      transform:rotateX(-120deg);
+    }
+    to {
+      opacity:1s;
+      transform:rotateX(0deg);
+    }
+  }
+  
+  } */

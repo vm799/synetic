@@ -3,18 +3,19 @@ import styled from 'styled-components';
 
 
 export const StyledMenu = styled.nav`
-top:10%;
+top:0%;
 display: flex;
 flex-direction: column;
 justify-content: center;
 background: rgb(0,0,0);
 background: rgb(84,2,68);
 background: rgb(84,2,68);
-background: linear-gradient(0deg, rgba(51,5,41,1) 0%, rgba(22,21,21,0.65) 64%);text-align: center;
+background: linear-gradient(0deg, rgba(51,5,41,0.85) 0%, rgba(21,21,21,0.85) 75%);
+text-align: center;
 padding: 1.5rem;
 position: absolute;
 transition: transform 0.7s ease-in-out;
-transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
+transform: ${({ open }) => open ? 'translateY(0)' : 'translateY(-100%)'};
 cursor:pointer;
 width:100%;
 left:0;

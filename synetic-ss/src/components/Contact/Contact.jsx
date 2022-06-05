@@ -18,7 +18,7 @@ export default function Contact (){
        
         >
             <h1>CONTACT US</h1>
-            <form>
+            <form className="reveal">
                 <input type="text"
                 placeholder="Full Name" required/>
                 <input type="email" placeholder="Your Email here please" required/>

@@ -42,21 +42,21 @@ export default function Oasis(){
            
            <img src="https://images.unsplash.com/photo-1534445967719-8ae7b972b1a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGZ1dHVyaXN0aWMlMjBjaXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
             alt="architecture in the game" 
-            className="about-oasis__img"
+            className="about-oasis__img reveal"
             />
 
 
 <p className="highlight strong"> <span id="circle"> </span><span id="circle"> </span>Spawn into the open world planet and have access to a multiverse of many different planets and worlds where you can 
  fight other players for coins. </p>
- <p className=" sub-text"> Build, own and rent out your own real estate 
+ <p className="reveal sub-text"> Build, own and rent out your own real estate 
  </p>
-<p className=" sub-text">  Join virtual meetings with co-workers 
+<p className="reveal sub-text">  Join virtual meetings with co-workers 
  </p>
-<p className=" sub-text ">Walk into a vegas style casino.
+<p className="reveal sub-text ">Walk into a vegas style casino.
  </p>
-<p className="sub-text"> All from the comfort of your own home !
+<p className="reveal sub-text"> All from the comfort of your own home !
  </p>
-<p className=" sub-text">Fly a fighter-jet. 
+<p className="reveal sub-text">Fly a fighter-jet. 
  </p>
 
 </section>

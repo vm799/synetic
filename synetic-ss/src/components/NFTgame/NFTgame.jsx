@@ -23,7 +23,7 @@ export default function NFTgame (){
              <p className="details">Escape from the harsh confines and constraints of
                  modern day reality.  
                 </p>
-             <p className="details"> COMING SOON!</p>
+             <p className="details details_secondary reveal"> COMING SOON!</p>
              <div className="NFTgame-btn_section">
                  <a href="mailto:sinistersouls2922@gmail.com" className="NFTgame-btn">CONTACT US</a>
              </div>

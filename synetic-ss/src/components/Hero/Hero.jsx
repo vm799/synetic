@@ -34,13 +34,13 @@ const style1 = useSpring({
         
             >
                 <h1>SYNETIC</h1>
-                <h3>Welcome to the future.</h3>
+                <h3 className="reveal"> Welcome to the future.</h3>
                 
             <button className="hero-btn">CONNECT WALLET</button>
         </div>
 
             
-        <div className="hero-image"
+        <div className="hero-image reveal"
        
             >
             <img 
