@@ -7,7 +7,7 @@
     /* border: 1px solid rgb(255, 255, 255); */
     /* border: 1px solid  rgb(177, 0, 247); */
     border: 1px solid white;
-  
+    box-shadow: 0 5px 5px 5px rgb(233, 0, 194, 0.16);
     border-radius: 100%;
     transform: translate(-50%, -50%);
     -webkit-transition-duration: 100ms;
@@ -17,6 +17,7 @@
     will-change: width, height, transform, border;
     z-index: 1999;
     pointer-events: none;
+    
   }
   
   .dot {
