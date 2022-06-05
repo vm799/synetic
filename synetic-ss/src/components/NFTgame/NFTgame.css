@@ -10,7 +10,6 @@
     letter-spacing: 0.5rem;
     color:#ffffff;
     font-weight:300;
-   border: 5px solid orange;
   }
   
   .NFTgame-heading span{
@@ -93,6 +92,12 @@
         padding:0;
         margin:1rem;
   
+      }
+
+      .NFTgame-heading .details_secondary{
+        font-size:3rem;
+        color: var(--clr-accent);
+        padding: 1rem;
       }
       
       .NFTgame-heading h2{
