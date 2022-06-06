@@ -1,4 +1,3 @@
-import { faBlackboard } from '@fortawesome/free-solid-svg-icons';
 import styled from 'styled-components';
 
 
